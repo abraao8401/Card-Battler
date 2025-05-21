@@ -18,5 +18,5 @@ MonoBehaviour:
   currentHealth: 7
   attackPower: 8
   manaCost: 9
-  characterSprite: {fileID: 21300000, guid: 1b1dab1fc6471e843855ebccad1bf702, type: 3}
-  bgSprite: {fileID: 21300000, guid: 565f65205f5e960459433b35a5274b28, type: 3}
+  characterSprite: {fileID: 21300000, guid: 2e4af3a3064d0f846923779fcc724c54, type: 3}
+  bgSprite: {fileID: 21300000, guid: ad0b28981b5c7ce4e8a9b2c41e0decfa, type: 3}
