@@ -235,7 +235,7 @@ public class BattleController : MonoBehaviour
 
         if(enemyHealth <= 0)
         {
-            UIController.instance.battleResultText.text = "YOU WON!";
+            UIController.instance.battleResultText.text = "VOCÊ VENCEU!";
 
             foreach(CardPlacePoint point in CardPointsController.instance.enemyCardPoints)
             {
@@ -247,7 +247,7 @@ public class BattleController : MonoBehaviour
 
         } else
         {
-            UIController.instance.battleResultText.text = "YOU LOST!";
+            UIController.instance.battleResultText.text = "VOCÊ PERDEU!";
 
             foreach (CardPlacePoint point in CardPointsController.instance.playerCardPoints)
             {

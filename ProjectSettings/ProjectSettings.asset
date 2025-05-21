@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: James Doyle
-  productName: Card Battler
+  companyName: Abraao e Gyovanna
+  productName: Hexalis
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -271,7 +271,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 5331cc8d1c56ea6429cc8c39616550f6, type: 3}
+      m_Icon: {fileID: 2800000, guid: 96f0fbc04f2f07c09874d581d79dfa49, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -860,11 +860,11 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 0
-  cloudProjectId: 
+  cloudProjectId: 1d984ec1-402e-4764-b843-5ad2350d033c
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: Card Batlle
+  organizationId: abraao8401
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 

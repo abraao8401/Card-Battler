@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.1802917, g: 0.22572428, b: 0.30693048, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -476,7 +476,7 @@ PrefabInstance:
     - target: {fileID: 1709992493621801375, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}
       propertyPath: m_text
-      value: Play
+      value: Jogar
       objectReference: {fileID: 0}
     - target: {fileID: 1709992493621801375, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}
@@ -779,9 +779,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Big Bad
-
-    Battle Cards'
+  m_text: HEXALIS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 27b1135ed7b40d748968ae5a9769eae3, type: 2}
   m_sharedMaterial: {fileID: 6065687481010364819, guid: 27b1135ed7b40d748968ae5a9769eae3,
@@ -809,7 +807,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 188.8
+  m_fontSize: 300
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -994,7 +992,7 @@ PrefabInstance:
     - target: {fileID: 1709992493621801375, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}
       propertyPath: m_text
-      value: Quit
+      value: Sair
       objectReference: {fileID: 0}
     - target: {fileID: 1709992493621801375, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}

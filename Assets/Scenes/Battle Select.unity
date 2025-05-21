@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.1802917, g: 0.22572428, b: 0.30693048, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -478,7 +478,7 @@ PrefabInstance:
     - target: {fileID: 1709992493621801375, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}
       propertyPath: m_text
-      value: Battle 3
+      value: Batalha 3
       objectReference: {fileID: 0}
     - target: {fileID: 1709992493621801375, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}
@@ -915,7 +915,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Select A Battle
+  m_text: Selecione uma batalha
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -942,7 +942,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 160.75
+  m_fontSize: 123.25
   m_fontSizeBase: 200
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1127,7 +1127,7 @@ PrefabInstance:
     - target: {fileID: 1709992493621801375, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}
       propertyPath: m_text
-      value: Battle 2
+      value: Batalha 2
       objectReference: {fileID: 0}
     - target: {fileID: 1709992493621801375, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}
@@ -1311,7 +1311,7 @@ PrefabInstance:
     - target: {fileID: 1709992493621801375, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}
       propertyPath: m_text
-      value: Battle 1
+      value: Batalha 1
       objectReference: {fileID: 0}
     - target: {fileID: 1709992493621801375, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}

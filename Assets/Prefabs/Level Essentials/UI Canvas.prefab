@@ -133,7 +133,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Main Menu
+  m_text: Menu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4dea892eaca5dc34c80bb78f6e1b454c, type: 2}
   m_sharedMaterial: {fileID: 6065687481010364819, guid: 4dea892eaca5dc34c80bb78f6e1b454c,
@@ -269,9 +269,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Draw Card
+  m_text: 'Arrastar Carta
 
-    (Costs 2 Mana)'
+    (Custo 2 Mana)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4dea892eaca5dc34c80bb78f6e1b454c, type: 2}
   m_sharedMaterial: {fileID: 6065687481010364819, guid: 4dea892eaca5dc34c80bb78f6e1b454c,
@@ -559,7 +559,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Player health: x'
+  m_text: 'Vida do Jogador: x'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 87c36329c3bdedc4aa6d82fee43f7fa8, type: 2}
   m_sharedMaterial: {fileID: 6065687481010364819, guid: 87c36329c3bdedc4aa6d82fee43f7fa8,
@@ -831,7 +831,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Enemy health: x'
+  m_text: 'Vida do Oponente: x'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 87c36329c3bdedc4aa6d82fee43f7fa8, type: 2}
   m_sharedMaterial: {fileID: 6065687481010364819, guid: 87c36329c3bdedc4aa6d82fee43f7fa8,
@@ -1491,7 +1491,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: YOU WON!
+  m_text: VOCE VENCEU!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1761,7 +1761,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Play Again
+  m_text: Repetir
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4dea892eaca5dc34c80bb78f6e1b454c, type: 2}
   m_sharedMaterial: {fileID: 6065687481010364819, guid: 4dea892eaca5dc34c80bb78f6e1b454c,
@@ -2032,7 +2032,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Not Enough Mana Points Available
+  m_text: Sem Pontos de Mana Disponiveis
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4dea892eaca5dc34c80bb78f6e1b454c, type: 2}
   m_sharedMaterial: {fileID: 6065687481010364819, guid: 4dea892eaca5dc34c80bb78f6e1b454c,
@@ -2168,7 +2168,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BATTLE ENDED!
+  m_text: BATALHA ENCERRADA!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2574,7 +2574,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Select A New Battle
+  m_text: Selecione uma nova Batalha
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4dea892eaca5dc34c80bb78f6e1b454c, type: 2}
   m_sharedMaterial: {fileID: 6065687481010364819, guid: 4dea892eaca5dc34c80bb78f6e1b454c,
@@ -2710,7 +2710,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PAUSED
+  m_text: PUSADO
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3125,7 +3125,7 @@ PrefabInstance:
     - target: {fileID: 1709992493621801375, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}
       propertyPath: m_text
-      value: Resume
+      value: Resumir
       objectReference: {fileID: 0}
     - target: {fileID: 1709992493621801375, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}
@@ -3275,7 +3275,7 @@ PrefabInstance:
     - target: {fileID: 1709992493621801375, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}
       propertyPath: m_text
-      value: Battle Select
+      value: Selecionar Batalha
       objectReference: {fileID: 0}
     - target: {fileID: 1709992493621801375, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}
@@ -3425,7 +3425,7 @@ PrefabInstance:
     - target: {fileID: 1709992493621801375, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}
       propertyPath: m_text
-      value: Main Menu
+      value: Menu
       objectReference: {fileID: 0}
     - target: {fileID: 1709992493621801375, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}

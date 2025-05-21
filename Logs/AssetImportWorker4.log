@@ -1,0 +1,442 @@
+Unity Editor version:    2021.3.0f1 (6eacc8284459)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #1 SMP Fri Sep 10 12:54:09 -03 2021
+Kernel version:          5.10.60
+Architecture:            x86_64
+Available memory:        5867 MB
+Using pre-set license
+Pro License: YES
+
+(Unity:39552): Gdk-CRITICAL **: 17:51:23.744: gdk_window_get_cursor: assertion 'GDK_IS_WINDOW (window)' failed
+Desktop is 1920 x 1080 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+/home/abraao/Card Batlle
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+35515
+Successfully changed project path to: /home/abraao/Card Batlle
+/home/abraao/Card Batlle
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 56,86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Initialize engine version: 2021.3.0f1 (6eacc8284459)
+[Subsystems] Discovering subsystems at path /home/abraao/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/abraao/Card Batlle/Assets
+GLX Extensions: GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_import_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+Renderer: AMD RENOIR (DRM 3.40.0, 5.10.60, LLVM 11.0.1)
+Vendor:   AMD
+Version:  4.6 (Core Profile) Mesa 20.3.5
+GLES:     0
+ GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_framebuffer_multisample_advanced GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_dist
+ance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel
+_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB
+_texture_barrier GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_
+rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decod
+e GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1123085488
+Initialize mono
+Mono path[0] = '/home/abraao/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed'
+Mono path[1] = '/home/abraao/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/abraao/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/abraao/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/abraao/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0,006364 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 54,60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,924 seconds
+Domain Reload Profiling:
+	ReloadAssembly (925ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (679ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (114ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (454ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (177ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0,004526 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 57,97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+UpdateMenuTitleForLanguage: 10
+Mono: successfully reloaded assembly
+- Completed reload, in  1,459 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1461ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1166ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (661ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (340ms)
+				ProcessInitializeOnLoadMethodAttributes (158ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0,72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3338 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (0,6 MB). Loaded Objects now: 3798.
+Memory consumption went from 148,3 MB to 147,8 MB.
+Total: 8,280033 ms (FindLiveObjects: 0,431479 ms CreateObjectMapping: 0,285511 ms MarkObjects: 7,139804 ms  DeleteObjects: 0,413809 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9962,232597 seconds.
+  path: Assets/Scripts/CardScriptableObject.cs
+  artifactKey: Guid(ca1c3f380379bc545ba4cf85b2ebcac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardScriptableObject.cs using Guid(ca1c3f380379bc545ba4cf85b2ebcac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75caed5d5f52d11562b0f68e720354d1') in 0,010438 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,001719 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0,77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,464 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1466ms)
+		BeginReloadAssembly (198ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1142ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (612ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (344ms)
+				ProcessInitializeOnLoadMethodAttributes (168ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1,64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,01 ms.
+Unloading 3201 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (0,6 MB). Loaded Objects now: 3801.
+Memory consumption went from 138,5 MB to 137,9 MB.
+Total: 5,579201 ms (FindLiveObjects: 0,509981 ms CreateObjectMapping: 0,182915 ms MarkObjects: 4,214014 ms  DeleteObjects: 0,459416 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 499,593556 seconds.
+  path: Assets/Prefabs/UI/End Turn Button.prefab
+  artifactKey: Guid(27c137da527d0c849ace90f4e8c29042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/End Turn Button.prefab using Guid(27c137da527d0c849ace90f4e8c29042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f2d506cee325a8cff65830ecd065e0') in 0,088684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9,680764 seconds.
+  path: Assets/Prefabs/Level Essentials
+  artifactKey: Guid(e16794d8abd9ed14ba6e1cc84c193702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Essentials using Guid(e16794d8abd9ed14ba6e1cc84c193702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b2141893f84e37f4591d974ad39498') in 0,001385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,043473 seconds.
+  path: Assets/Prefabs/Level Essentials/UI Canvas.prefab
+  artifactKey: Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Essentials/UI Canvas.prefab using Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1187814077006a11c5dbca41200ff2') in 0,057911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31,918935 seconds.
+  path: Assets/Prefabs/Level Essentials/UI Canvas.prefab
+  artifactKey: Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Essentials/UI Canvas.prefab using Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6124478f786501529646860cd62a9d') in 0,046758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19,039857 seconds.
+  path: Assets/Prefabs/Level Essentials/UI Canvas.prefab
+  artifactKey: Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Essentials/UI Canvas.prefab using Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8ba28529ff4d27763869469e177153') in 0,043546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26,662065 seconds.
+  path: Assets/Prefabs/Level Essentials/UI Canvas.prefab
+  artifactKey: Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Essentials/UI Canvas.prefab using Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de3775ead1ec8f3dfa7626c7f31a9b2') in 0,047063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29,279411 seconds.
+  path: Assets/Prefabs/Level Essentials/UI Canvas.prefab
+  artifactKey: Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Essentials/UI Canvas.prefab using Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd419652ab0c0bb3fea6d97456969bf6b') in 0,043858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14,479023 seconds.
+  path: Assets/Prefabs/Level Essentials/UI Canvas.prefab
+  artifactKey: Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Essentials/UI Canvas.prefab using Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9def34484fe0f7a23b06ae4d1808815a') in 0,045929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9,982491 seconds.
+  path: Assets/Prefabs/Level Essentials/UI Canvas.prefab
+  artifactKey: Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Essentials/UI Canvas.prefab using Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0556c04b9726cb45f7215ddc073cac') in 0,042590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11,051427 seconds.
+  path: Assets/Prefabs/Level Essentials/UI Canvas.prefab
+  artifactKey: Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Essentials/UI Canvas.prefab using Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381bb9012b02b30f11b2b3138e796213') in 0,051334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14,112255 seconds.
+  path: Assets/Prefabs/Level Essentials/UI Canvas.prefab
+  artifactKey: Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Essentials/UI Canvas.prefab using Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247cb8ad6d71ca6a6ef278a0cdc8f1ce') in 0,047323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15,982775 seconds.
+  path: Assets/Prefabs/Level Essentials/UI Canvas.prefab
+  artifactKey: Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Essentials/UI Canvas.prefab using Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a37e9be434890c4f3d5c945f8a5b90e') in 0,042728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10,730765 seconds.
+  path: Assets/Prefabs/Level Essentials/UI Canvas.prefab
+  artifactKey: Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Essentials/UI Canvas.prefab using Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c881c417f5c49f513d716a35c080382') in 0,044586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11,533691 seconds.
+  path: Assets/Prefabs/Level Essentials/UI Canvas.prefab
+  artifactKey: Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Essentials/UI Canvas.prefab using Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a44ae2f742b9c30c9e3827911f693e') in 0,044865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20,832494 seconds.
+  path: Assets/Prefabs/Level Essentials/UI Canvas.prefab
+  artifactKey: Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Essentials/UI Canvas.prefab using Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86d3a03c11d37d3112e001bc2d6f078') in 0,044110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80,989896 seconds.
+  path: Assets/Prefabs/Level Essentials/UI Canvas.prefab
+  artifactKey: Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Essentials/UI Canvas.prefab using Guid(c6ebd209c29870d4e890ed0940a180ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91de613d3110b69fad7fae03463f2ca5') in 0,047381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12,513150 seconds.
+  path: Assets/Prefabs/Level Essentials/Deck Controller.prefab
+  artifactKey: Guid(40e63ad97d4504944a7cd971620d7999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Essentials/Deck Controller.prefab using Guid(40e63ad97d4504944a7cd971620d7999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4af522476066605f319cf8eaa4784ac') in 0,435747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27,458431 seconds.
+  path: Assets/Scripts/AMLoader.cs
+  artifactKey: Guid(a45a2c4069f59b24796f01e41ad98f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AMLoader.cs using Guid(a45a2c4069f59b24796f01e41ad98f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d4652acf9f31dc19002897f809327e') in 0,001748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 267,335018 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art
+  artifactKey: Guid(ea2206c5df3dd604196129a77d9c39ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art using Guid(ea2206c5df3dd604196129a77d9c39ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66faf984433c8097643a4269d238b908') in 0,002876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2,222953 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Backgrounds
+  artifactKey: Guid(cdcccbaaf62654d44b8ed8851cdd6939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Backgrounds using Guid(cdcccbaaf62654d44b8ed8851cdd6939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5176ec29dbfc5ef0cd13cebc5ec6429f') in 0,001608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7,671732 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/UI
+  artifactKey: Guid(00584f836fe21564587e33a8126a4751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/UI using Guid(00584f836fe21564587e33a8126a4751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1b2dd4bbbc3e14925a1a0e178b0c53') in 0,001422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44,087397 seconds.
+  path: Assets/_Udemy Card Battler Assets/Font/PTSans-Regular SDF Outline Health.asset
+  artifactKey: Guid(87c36329c3bdedc4aa6d82fee43f7fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Font/PTSans-Regular SDF Outline Health.asset using Guid(87c36329c3bdedc4aa6d82fee43f7fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993dc995bb5dbfdfe328f0b295f39055') in 0,084438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 127,052273 seconds.
+  path: Assets/_Udemy Card Battler Assets/Font/PTSans-Regular SDF.asset
+  artifactKey: Guid(4dea892eaca5dc34c80bb78f6e1b454c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Font/PTSans-Regular SDF.asset using Guid(4dea892eaca5dc34c80bb78f6e1b454c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0e648cae7b28e630284bd02f1ee40d') in 0,037401 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3,74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (0,6 MB). Loaded Objects now: 3929.
+Memory consumption went from 79,7 MB to 79,1 MB.
+Total: 6,284737 ms (FindLiveObjects: 0,399632 ms CreateObjectMapping: 0,126692 ms MarkObjects: 5,366395 ms  DeleteObjects: 0,381054 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 205,579637 seconds.
+  path: Assets/Scenes/Battle Select.unity
+  artifactKey: Guid(135b1e88f047aa7468de2dec66f20a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Battle Select.unity using Guid(135b1e88f047aa7468de2dec66f20a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ede31d76189b1571e2a7a696fb4758') in 0,003487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1,388882 seconds.
+  path: Assets/Scenes/Main Menu.unity
+  artifactKey: Guid(6341df5724c0fee428db6f230a0c0920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Menu.unity using Guid(6341df5724c0fee428db6f230a0c0920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45f3e3056d37b3518d62870f1c39495') in 0,001435 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3,38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (0,6 MB). Loaded Objects now: 3929.
+Memory consumption went from 79,8 MB to 79,3 MB.
+Total: 7,237581 ms (FindLiveObjects: 0,502229 ms CreateObjectMapping: 0,188012 ms MarkObjects: 6,155252 ms  DeleteObjects: 0,384966 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 186,791051 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Characters
+  artifactKey: Guid(9cf5dcbdbf03970499bb7d235626a7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Characters using Guid(9cf5dcbdbf03970499bb7d235626a7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6aa682fc5a7ede902e56780e753eb9c') in 0,003430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 403,130053 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/fundo-jogo.png
+  artifactKey: Guid(06d482cf9e56ddb4da40dc80842cbf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/fundo-jogo.png using Guid(06d482cf9e56ddb4da40dc80842cbf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79c18839809c600984dc5b6648a151a') in 0,024232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49,239373 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/fundo-jogo.png
+  artifactKey: Guid(06d482cf9e56ddb4da40dc80842cbf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/fundo-jogo.png using Guid(06d482cf9e56ddb4da40dc80842cbf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a68146e0af9ffa2bf04080fc64ab691') in 0,137653 seconds 

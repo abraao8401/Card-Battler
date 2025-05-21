@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Test Card 1
   m_EditorClassIdentifier: 
   cardName: Test Card 1
-  actionDescription: This is the first card
-  cardLore: Card for testing
+  actionDescription: Teste de Carta
+  cardLore: Lore de teste
   currentHealth: 1
   attackPower: 2
   manaCost: 3
