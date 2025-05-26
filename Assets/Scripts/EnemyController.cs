@@ -297,8 +297,6 @@ public class EnemyController : MonoBehaviour
 
         cardsInHand.Remove(cardSO);
 
-        BattleController.instance.SpendEnemyMana(cardSO.manaCost);
-
         AudioManager.instance.PlaySFX(4);
     }
 
@@ -309,10 +307,7 @@ public class EnemyController : MonoBehaviour
         List<CardScriptableObject> cardsToPlay = new List<CardScriptableObject>();
         foreach (CardScriptableObject card in cardsInHand)
         {
-            if (card.manaCost <= BattleController.instance.enemyMana)
-            {
                 cardsToPlay.Add(card);
-            }
         }
 
         if (cardsToPlay.Count > 0)

@@ -12,12 +12,12 @@ public class BattleController : MonoBehaviour
     }
 
 
-    public int startingMana = 4, maxMana = 12;
+    public int startingMana = 4, maxMana = 10;
     public int playerMana, enemyMana;
     private int currentPlayerMaxMana, currentEnemyMaxMana;
 
     public int startingCardsAmount = 5;
-    public int cardsToDrawPerTurn = 2;
+    public int cardsToDrawPerTurn = 1;
 
     public enum TurnOrder { playerActive, playerCardAttacks, enemyActive, enemyCardAttacks }
     public TurnOrder currentPhase;

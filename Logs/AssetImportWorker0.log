@@ -1,0 +1,427 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.0f1 (6eacc8284459) revision 7253192'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'pt' Physical Memory: 16224 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.0f1-x86_64\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Giovanna/Card-Battler
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62961
+Successfully changed project path to: C:/Users/Giovanna/Card-Battler
+C:/Users/Giovanna/Card-Battler
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 95.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.0f1 (6eacc8284459)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.0f1-x86_64/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Giovanna/Card-Battler/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 580 2048SP (ID=0x6fdf)
+    Vendor:   ATI
+    VRAM:     8170 MB
+    Driver:   31.0.21912.14
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1-x86_64/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.030547 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 67.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.027 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1028ms)
+		BeginReloadAssembly (181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (612ms)
+			LoadAssemblies (175ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (149ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (308ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (68ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015648 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 64.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.881 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1882ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1448ms)
+			LoadAssemblies (307ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (727ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (362ms)
+				ProcessInitializeOnLoadMethodAttributes (119ms)
+				AfterProcessingInitializeOnLoad (33ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3337 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (0.7 MB). Loaded Objects now: 3795.
+Memory consumption went from 155.4 MB to 154.7 MB.
+Total: 4.337600 ms (FindLiveObjects: 0.383800 ms CreateObjectMapping: 0.179900 ms MarkObjects: 3.376700 ms  DeleteObjects: 0.396100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 799845.149235 seconds.
+  path: Assets/Master Mixer.mixer
+  artifactKey: Guid(d9140f4a46df03f4cb1dbfe69723f7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Master Mixer.mixer using Guid(d9140f4a46df03f4cb1dbfe69723f7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fdf97656375c6a2019efcbb51d5d517') in 0.079473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 420.102217 seconds.
+  path: Assets/Scenes/Main Menu.unity
+  artifactKey: Guid(6341df5724c0fee428db6f230a0c0920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Menu.unity using Guid(6341df5724c0fee428db6f230a0c0920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aecf117f8fd6147d6e684609f98a985e') in 0.005547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.732243 seconds.
+  path: Assets/Scripts/Card.cs
+  artifactKey: Guid(b61ae3911389edc4f9b22d7b4840c528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Card.cs using Guid(b61ae3911389edc4f9b22d7b4840c528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17dc22444106dfca21a0f535797eb28d') in 0.017418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.000829 seconds.
+  path: Assets/Scripts/CardScriptableObject.cs
+  artifactKey: Guid(ca1c3f380379bc545ba4cf85b2ebcac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardScriptableObject.cs using Guid(ca1c3f380379bc545ba4cf85b2ebcac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de91fe645c2fc9779a0bddffb8a6c43') in 0.007207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.528992 seconds.
+  path: Assets/Scripts/EnemyController.cs
+  artifactKey: Guid(a21b249c0714a934ba751159e0603c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyController.cs using Guid(a21b249c0714a934ba751159e0603c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b309143b2022d1deeba1f47aec8686') in 0.004794 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013645 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.652 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1653ms)
+		BeginReloadAssembly (272ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (1211ms)
+			LoadAssemblies (249ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (283ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (573ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (112ms)
+				AfterProcessingInitializeOnLoad (47ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3201 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (0.7 MB). Loaded Objects now: 3798.
+Memory consumption went from 145.7 MB to 145.0 MB.
+Total: 4.822500 ms (FindLiveObjects: 0.481700 ms CreateObjectMapping: 0.269400 ms MarkObjects: 3.712700 ms  DeleteObjects: 0.356700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 187.694505 seconds.
+  path: Assets/Cards/Test Card 1.asset
+  artifactKey: Guid(9243eef78194dec4e80fd0ec258c2c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Test Card 1.asset using Guid(9243eef78194dec4e80fd0ec258c2c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b82a941b9714b60d651c70d9834db0f') in 0.028358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.198059 seconds.
+  path: Assets/Prefabs/Audio Manager Loader.prefab
+  artifactKey: Guid(f95da8b78c028984d8bdc1abe9c08585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Audio Manager Loader.prefab using Guid(f95da8b78c028984d8bdc1abe9c08585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2993c3398890f5f93d3847862150e20') in 0.036602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/Card.prefab
+  artifactKey: Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card.prefab using Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd624dd80f11b9f97cba73e66e5a3111f') in 3.465176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 137.393107 seconds.
+  path: Assets/Materials/Desktop Blue.mat
+  artifactKey: Guid(ab6b50f0397c5bc41bfd5e44bf3aa174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Desktop Blue.mat using Guid(ab6b50f0397c5bc41bfd5e44bf3aa174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991ff015bd58849f9d7a9486d4a32c1f') in 0.119949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.798532 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/logo-game.png
+  artifactKey: Guid(96f0fbc04f2f07c09874d581d79dfa49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/logo-game.png using Guid(96f0fbc04f2f07c09874d581d79dfa49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e7f860b216b96a8608b1e52e9ed8a7') in 0.142314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.793109 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/UI/blue_button06.png
+  artifactKey: Guid(9b52548ca2c3ee345bab90ba9b186639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/UI/blue_button06.png using Guid(9b52548ca2c3ee345bab90ba9b186639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043fda8da7f3c7910d57aca202f78be2') in 0.275957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005532 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/UI/green_button06.png
+  artifactKey: Guid(8ccedc9d31bde3b449554019cc672a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/UI/green_button06.png using Guid(8ccedc9d31bde3b449554019cc672a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c73a880ad2088513627c450011f5a30') in 0.319343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/UI/red_button05.png
+  artifactKey: Guid(13485c2b21c7f014586bb85e3bdaf7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/UI/red_button05.png using Guid(13485c2b21c7f014586bb85e3bdaf7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f728daa54b47e745a8b083bc544c94a8') in 0.469931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/UI/yellow_button08.png
+  artifactKey: Guid(aa79089f2027b7e40aafcdff30fc2f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/UI/yellow_button08.png using Guid(aa79089f2027b7e40aafcdff30fc2f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96551d2a21292b20212a7211f9350242') in 0.414280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.967855 seconds.
+  path: Assets/_Udemy Card Battler Assets/Card Model/Card Model.fbx
+  artifactKey: Guid(1f89a578ed4ecee4b9b3d0429697416a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Card Model/Card Model.fbx using Guid(1f89a578ed4ecee4b9b3d0429697416a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b256fec7bc033610ed6f1e405bafd9') in 0.706128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.276049 seconds.
+  path: Assets/_Udemy Card Battler Assets/Card Model/Card_Front.mat
+  artifactKey: Guid(a5f0f55354e58fb498b6f0beaed8e485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Card Model/Card_Front.mat using Guid(a5f0f55354e58fb498b6f0beaed8e485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81bacb2634776873650d870126e0effb') in 0.035838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 357.351943 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Carrot.png
+  artifactKey: Guid(004257126f8f47a4a98a9d521d09bdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Carrot.png using Guid(004257126f8f47a4a98a9d521d09bdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8af50372dbeb5286e1787cd529fe6f7') in 0.029171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012337 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Coyote.png
+  artifactKey: Guid(4fd243a4738ef344180927cb79988569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Coyote.png using Guid(4fd243a4738ef344180927cb79988569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd016fd7db1a4643866798a9953e044c1') in 0.028333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/DarkTroll.png
+  artifactKey: Guid(5331cc8d1c56ea6429cc8c39616550f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/DarkTroll.png using Guid(5331cc8d1c56ea6429cc8c39616550f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43835001b5f6e6144d82f4a42788974') in 0.026573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Macrocat.png
+  artifactKey: Guid(a6ef78d47a00c1547a3567caa54f2139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Macrocat.png using Guid(a6ef78d47a00c1547a3567caa54f2139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dcd4dc29b24b14233e1a290888e39f0') in 0.025819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/FireAnt.png
+  artifactKey: Guid(c25d855d2f6d6a04aa98bf5847ca2f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/FireAnt.png using Guid(c25d855d2f6d6a04aa98bf5847ca2f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d2ca59cda444984a548d1c68c56b9b') in 0.028832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Planet.png
+  artifactKey: Guid(27af81e245c71204cb492c7a2ce52a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Planet.png using Guid(27af81e245c71204cb492c7a2ce52a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d6db7af4e6079cc2d8f58510586314') in 0.028397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Temporario 1-2.png
+  artifactKey: Guid(2e4af3a3064d0f846923779fcc724c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Temporario 1-2.png using Guid(2e4af3a3064d0f846923779fcc724c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78dcc4e8127fd05018f8936d9ad9665') in 0.195399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Larva.png
+  artifactKey: Guid(bb74c38418538b640b20840a23d57902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Larva.png using Guid(bb74c38418538b640b20840a23d57902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3bef9b1c299ffa4b0e9b9e55319cc7') in 0.025718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Spider.png
+  artifactKey: Guid(e084025e714b66e499300c378ea766a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Spider.png using Guid(e084025e714b66e499300c378ea766a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62d1952f6c11b56eea7385b27978d9d') in 0.022051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Zombie.png
+  artifactKey: Guid(28f2e3bc10aa25b4a8b9a79e5df381fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Zombie.png using Guid(28f2e3bc10aa25b4a8b9a79e5df381fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b18e2ed8fc4b7adc848acfba00ceb27') in 0.021036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Rage.png
+  artifactKey: Guid(bb2826821c85bfc47ac676eb71f11cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Rage.png using Guid(bb2826821c85bfc47ac676eb71f11cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9270ec22a306ca384d1fdf33d331778c') in 0.022462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Slime.png
+  artifactKey: Guid(e51ba10e3fdb56649a34ec1123e9b1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Slime.png using Guid(e51ba10e3fdb56649a34ec1123e9b1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afe2c2217621cc66bbb9ab4d7831355') in 0.024428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Weeper.png
+  artifactKey: Guid(125bf97add4498940a60fcb76c757d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Weeper.png using Guid(125bf97add4498940a60fcb76c757d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e38663c01153275f906e80de6e9cd63') in 0.034718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Shroom.png
+  artifactKey: Guid(7867dcc336c7ad541a5ecf6c061e432c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Shroom.png using Guid(7867dcc336c7ad541a5ecf6c061e432c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4017110f1f717616fa2c1df0a06f88') in 0.040959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Chomper.png
+  artifactKey: Guid(b7ae2cc239ca7dd4eb45ac845d2fa034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Chomper.png using Guid(b7ae2cc239ca7dd4eb45ac845d2fa034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec16cdea22ee69e310c212201e279382') in 0.022967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Troll.png
+  artifactKey: Guid(9594c9e691dd77844a7bf2eb3a27e995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Troll.png using Guid(9594c9e691dd77844a7bf2eb3a27e995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af36c9745dbfa9370a2bb6d9e17118d') in 0.021414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Temporario 2-2.png
+  artifactKey: Guid(5de4884e36138f54884b4b7d9e0c6006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Temporario 2-2.png using Guid(5de4884e36138f54884b4b7d9e0c6006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca0202ee32f20a8c23fac043ca60127') in 0.146160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Envy.png
+  artifactKey: Guid(f32a58addd348c84c92812aa81bccf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Envy.png using Guid(f32a58addd348c84c92812aa81bccf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbb0b49dc1af7c6688f6f8e34aad2fa') in 0.018871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Sludge.png
+  artifactKey: Guid(8ed691ff58d617045ae786cbd4611c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Sludge.png using Guid(8ed691ff58d617045ae786cbd4611c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6102837daaec380ddb90b951f9a75949') in 0.018502 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

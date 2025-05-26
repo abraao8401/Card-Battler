@@ -8,9 +8,9 @@ public class CardScriptableObject : ScriptableObject
     public string cardName;
 
     [TextArea]
-    public string actionDescription, cardLore;
+    public string description;
 
-    public int currentHealth, attackPower, manaCost;
+    public int currentHealth, attackPower;
 
-    public Sprite characterSprite, bgSprite;
+    public Sprite characterSprite, templateSprite;
 }

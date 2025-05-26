@@ -46,17 +46,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingMana: 10
-  maxMana: 12
+  maxMana: 10
   playerMana: 0
   enemyMana: 0
   startingCardsAmount: 5
-  cardsToDrawPerTurn: 2
+  cardsToDrawPerTurn: 1
   currentPhase: 0
   discardPoint: {fileID: 379319109701027246}
-  playerHealth: 50
-  enemyHealth: 50
+  playerHealth: 100
+  enemyHealth: 100
   battleEnded: 0
   resultScreenDelayTime: 1
+  playerFirstChance: 0.5
 --- !u!1 &379319109701027247
 GameObject:
   m_ObjectHideFlags: 0

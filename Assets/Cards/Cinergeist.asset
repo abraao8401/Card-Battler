@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca1c3f380379bc545ba4cf85b2ebcac4, type: 3}
+  m_Name: Cinergeist
+  m_EditorClassIdentifier: 
+  cardName: Cinergeist
+  description: "Parece surgir da n\xE9voa ardente que escapa das fendas do mundo.
+    Sua forma \xE9 envolta por labaredas tr\xEAmulas que se dissipam sempre que se
+    move. Possui longos bra\xE7os flamejantes se terminam em garras afiadas, prontas
+    para rasgar e consumir."
+  currentHealth: 5
+  attackPower: 15
+  characterSprite: {fileID: 21300000, guid: c42c501017577944da50f694e7066ea8, type: 3}
+  templateSprite: {fileID: 21300000, guid: 5b1d807206c31c34d83a373866e88306, type: 3}

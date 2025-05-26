@@ -1,0 +1,762 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.0f1 (6eacc8284459) revision 7253192'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'pt' Physical Memory: 16224 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.0f1-x86_64\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/Giovanna/Card-Battler
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+62961
+Successfully changed project path to: C:/Users/Giovanna/Card-Battler
+C:/Users/Giovanna/Card-Battler
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 85.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.0f1 (6eacc8284459)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.0f1-x86_64/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Giovanna/Card-Battler/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 580 2048SP (ID=0x6fdf)
+    Vendor:   ATI
+    VRAM:     8170 MB
+    Driver:   31.0.21912.14
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1-x86_64/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.028961 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 66.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.922 seconds
+Domain Reload Profiling:
+	ReloadAssembly (922ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (561ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (136ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (301ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015592 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 64.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.683 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1684ms)
+		BeginReloadAssembly (238ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1251ms)
+			LoadAssemblies (213ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (307ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (638ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (275ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
+				AfterProcessingInitializeOnLoad (31ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3338 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (0.7 MB). Loaded Objects now: 3798.
+Memory consumption went from 156.3 MB to 155.6 MB.
+Total: 4.277400 ms (FindLiveObjects: 0.367000 ms CreateObjectMapping: 0.183600 ms MarkObjects: 3.307000 ms  DeleteObjects: 0.418700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 801084.562007 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Coralix.png
+  artifactKey: Guid(307f2f2c97fdc1a44a03f7ca7d3ad186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Coralix.png using Guid(307f2f2c97fdc1a44a03f7ca7d3ad186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6f6b1e6a5e5aa09bd47df0880a9340') in 0.223364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.615134 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Ocukrak.png
+  artifactKey: Guid(1c6fba627f2a3094aa6540e88439f078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Ocukrak.png using Guid(1c6fba627f2a3094aa6540e88439f078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25596b9219bc94e274cab40efe2f5a9') in 0.015728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.189025 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Nargazhul.png
+  artifactKey: Guid(0c0a7c3e59257694e8365f75046c1a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Nargazhul.png using Guid(0c0a7c3e59257694e8365f75046c1a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd87e39eb5d55a066248beaa361075c') in 0.020297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.568134 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Coralix.png
+  artifactKey: Guid(307f2f2c97fdc1a44a03f7ca7d3ad186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Coralix.png using Guid(307f2f2c97fdc1a44a03f7ca7d3ad186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c5c31314b1b08d5e90ddb24d9b32bc') in 0.263350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.855363 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Nargazhul.png
+  artifactKey: Guid(0c0a7c3e59257694e8365f75046c1a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Nargazhul.png using Guid(0c0a7c3e59257694e8365f75046c1a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dbe777ac5dbda558c7f344e333c089d') in 0.161822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.062060 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Ocukrak.png
+  artifactKey: Guid(1c6fba627f2a3094aa6540e88439f078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Characters/Ocukrak.png using Guid(1c6fba627f2a3094aa6540e88439f078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c676393e47f7f8a66ef9a8989d9365') in 0.158989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.063869 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Backgrounds/fort.png
+  artifactKey: Guid(947eb1811c248cb4f8704b3548422538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Backgrounds/fort.png using Guid(947eb1811c248cb4f8704b3548422538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cba23f2aa9a1fb10cae7c185cbf0f04') in 0.038021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Backgrounds/keep.png
+  artifactKey: Guid(5b8d453954560794a8e87dbd37b7847d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Backgrounds/keep.png using Guid(5b8d453954560794a8e87dbd37b7847d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5b50cfc5a11fc880cf9e8fcaf9538d') in 0.028907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022915 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Backgrounds/mountains_bridge.png
+  artifactKey: Guid(814c5253f07cfa94faeb0e21a66f002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Backgrounds/mountains_bridge.png using Guid(814c5253f07cfa94faeb0e21a66f002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d1549fedc82fc99acf16a5d367f053') in 0.024993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Backgrounds/volcano.png
+  artifactKey: Guid(565f65205f5e960459433b35a5274b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Backgrounds/volcano.png using Guid(565f65205f5e960459433b35a5274b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2260152012a1c5d074c781c4c01ca9f8') in 0.024984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Backgrounds/Temporario 1-1.png
+  artifactKey: Guid(ad0b28981b5c7ce4e8a9b2c41e0decfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Backgrounds/Temporario 1-1.png using Guid(ad0b28981b5c7ce4e8a9b2c41e0decfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70b9372a56e055fed8443cfb8146d78') in 0.104887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Backgrounds/sand.png
+  artifactKey: Guid(f3fbbee728f0f1c40ab1feb45e9f9fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Backgrounds/sand.png using Guid(f3fbbee728f0f1c40ab1feb45e9f9fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba915eb8b29ac8bdbb2cf349a9c360b4') in 0.024039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Backgrounds/rope_bridge.png
+  artifactKey: Guid(d935388c7a690114cb9a718551384eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Backgrounds/rope_bridge.png using Guid(d935388c7a690114cb9a718551384eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0826c5dfa7e094193df558184128915b') in 0.027261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Backgrounds/mountains.png
+  artifactKey: Guid(91f263c4e2d827c4fa3cb47b7369c9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Backgrounds/mountains.png using Guid(91f263c4e2d827c4fa3cb47b7369c9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6046d40a44fd1395474ee580eb409c') in 0.023079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Backgrounds/volc_bridge.png
+  artifactKey: Guid(2f1cf00299642e54f939f6a2d668fa28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Backgrounds/volc_bridge.png using Guid(2f1cf00299642e54f939f6a2d668fa28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1141939c2fed8b816f30b5ad2d4ab32b') in 0.023605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Backgrounds/keep_outer.png
+  artifactKey: Guid(87ef39150fb6c3443b69613ff7baabbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Backgrounds/keep_outer.png using Guid(87ef39150fb6c3443b69613ff7baabbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb6e0c21ecdbe8a31684d4c4ee3ac71') in 0.023297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Backgrounds/jungle.png
+  artifactKey: Guid(e3d89e19a761a504ba8b8e785d1a420e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Backgrounds/jungle.png using Guid(e3d89e19a761a504ba8b8e785d1a420e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe78026c974772cae73cba1ed00e9e6') in 0.024603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Backgrounds/Temporario 3-1.png
+  artifactKey: Guid(b0e503f6b77b2f6449373a3a9ceff000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Backgrounds/Temporario 3-1.png using Guid(b0e503f6b77b2f6449373a3a9ceff000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d86d4fa6430a97fc41f82df5661988f') in 0.080550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.317222 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Template/Template de Fogo.png
+  artifactKey: Guid(5b1d807206c31c34d83a373866e88306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Template/Template de Fogo.png using Guid(5b1d807206c31c34d83a373866e88306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f2fc918e6d1a6bc56a7566bb464d6b') in 0.024166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Template/Template de Água.png
+  artifactKey: Guid(c60b37c9c2bea634eaefbeb2e717ce65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Template/Template de Água.png using Guid(c60b37c9c2bea634eaefbeb2e717ce65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c694dbd480929cba90cac44f0b313a0') in 0.018245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.851144 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Template/Template de Água.png
+  artifactKey: Guid(c60b37c9c2bea634eaefbeb2e717ce65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Template/Template de Água.png using Guid(c60b37c9c2bea634eaefbeb2e717ce65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f037a97fe94b673f6eac64ec1568e4b') in 0.439445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.169565 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Template/Template de Sombra.png
+  artifactKey: Guid(9800b33ae4c10b0478047e7b56b2c228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Template/Template de Sombra.png using Guid(9800b33ae4c10b0478047e7b56b2c228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecac534b8cce570be123667a5cb77072') in 0.308690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.015349 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Template/Template de Psíquico.png
+  artifactKey: Guid(1970f9dc266b9a24c81f9f44ac1a05c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Template/Template de Psíquico.png using Guid(1970f9dc266b9a24c81f9f44ac1a05c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9850f8073331b5e637ebe46ac83c327e') in 0.292459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.286185 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Template/Template de Planta.png
+  artifactKey: Guid(e753bd1e8e02b414485851dcb341e23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Template/Template de Planta.png using Guid(e753bd1e8e02b414485851dcb341e23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da7432fe5454df6b07c3d56f0df1652') in 0.356527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.806405 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Template/Template de Luz.png
+  artifactKey: Guid(ad9aec236aed2634eb5c40bfadcd2d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Template/Template de Luz.png using Guid(ad9aec236aed2634eb5c40bfadcd2d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a205cef2e3dd1e61dcc2c070e027060e') in 0.325115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.569890 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Template/Template de Fogo.png
+  artifactKey: Guid(5b1d807206c31c34d83a373866e88306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Template/Template de Fogo.png using Guid(5b1d807206c31c34d83a373866e88306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302cbf4e61dfc6c8ac74fa00b0194dbc') in 0.326425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1547.108369 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card_Frame.png
+  artifactKey: Guid(1056550c6f9ef494f8b7cde352510f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card_Frame.png using Guid(1056550c6f9ef494f8b7cde352510f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d822456389c92603cd6cd61a8f7626f') in 0.025525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.283025 seconds.
+  path: Assets/Cards/Coralix.asset
+  artifactKey: Guid(9243eef78194dec4e80fd0ec258c2c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Coralix.asset using Guid(9243eef78194dec4e80fd0ec258c2c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a7ea60f88c3f0fdbb718cab84454a3') in 0.025771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 77.371536 seconds.
+  path: Assets/Cards/Nargazhul.asset
+  artifactKey: Guid(8fa5746e1ed55994d9298acfd7140f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Nargazhul.asset using Guid(8fa5746e1ed55994d9298acfd7140f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e361737c3b73175f4fa7fd1cb5361e') in 0.005898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.953372 seconds.
+  path: Assets/Cards/Ocukrak.asset
+  artifactKey: Guid(5603ca9f2ed96b746a04ffbf32060118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Ocukrak.asset using Guid(5603ca9f2ed96b746a04ffbf32060118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c02454c60efe6dedee113349fba4e1') in 0.012136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 333.094252 seconds.
+  path: Assets/Prefabs/Card.prefab
+  artifactKey: Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card.prefab using Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4307b299845b70507853daa1a3619d1c') in 0.579799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 283.099108 seconds.
+  path: Assets/Prefabs/Card.prefab
+  artifactKey: Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card.prefab using Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce994c26050babf6c640221dc7951fbf') in 0.118636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.693191 seconds.
+  path: Assets/Prefabs/Card.prefab
+  artifactKey: Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card.prefab using Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c125544e72183b6ec5a6542015324ad') in 0.100636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.509803 seconds.
+  path: Assets/Prefabs/Card.prefab
+  artifactKey: Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card.prefab using Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff9132e695991bc6343ba9aa45eeddf2') in 0.105048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.149360 seconds.
+  path: Assets/Prefabs/Card.prefab
+  artifactKey: Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card.prefab using Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2abae999a653652600a97e754dd9de02') in 0.110492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.380627 seconds.
+  path: Assets/Prefabs/Card.prefab
+  artifactKey: Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card.prefab using Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04b536c9aa546202b7a04a5b0f87e37') in 0.109533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.124442 seconds.
+  path: Assets/Prefabs/Card.prefab
+  artifactKey: Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card.prefab using Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b523e8541e17b980c327deaa76c231c7') in 0.098806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.605522 seconds.
+  path: Assets/Prefabs/Card.prefab
+  artifactKey: Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card.prefab using Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3a44772597b758d7260c65d711cf96') in 0.109443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.544878 seconds.
+  path: Assets/Prefabs/Card.prefab
+  artifactKey: Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card.prefab using Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083e5408730022bacd4a2b314301e1b8') in 0.121768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.145581 seconds.
+  path: Assets/Prefabs/Card.prefab
+  artifactKey: Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card.prefab using Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53887f55d5f14b99eed2b5b8b4468dab') in 0.117698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.951488 seconds.
+  path: Assets/Prefabs/Card.prefab
+  artifactKey: Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card.prefab using Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248925db78bbe94e83d1194fa9ab2568') in 0.105959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.878925 seconds.
+  path: Assets/Prefabs/Card.prefab
+  artifactKey: Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card.prefab using Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d27bc13a15885a67d703f1d462d599a') in 0.103010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.414980 seconds.
+  path: Assets/Prefabs/Card.prefab
+  artifactKey: Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card.prefab using Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110eacfde6249364b0fdfbedb7b7ed2c') in 0.111852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.770372 seconds.
+  path: Assets/Prefabs/Card.prefab
+  artifactKey: Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card.prefab using Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e77311858686dc35edf870109d072b1') in 0.106659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.949609 seconds.
+  path: Assets/Prefabs/Card.prefab
+  artifactKey: Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card.prefab using Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7ed4130ec28c778252ab56bab6b6f2') in 0.114288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.629688 seconds.
+  path: Assets/Prefabs/Card.prefab
+  artifactKey: Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card.prefab using Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375e8e585d516c758e189414db886a91') in 0.094926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.405534 seconds.
+  path: Assets/Prefabs/Card.prefab
+  artifactKey: Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card.prefab using Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc711f8ae376975862bd24b06cab9c2') in 0.104601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.883352 seconds.
+  path: Assets/Prefabs/Card.prefab
+  artifactKey: Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card.prefab using Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d81e9c4d60496cc63bdf21e0516d7c9') in 0.105096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.140173 seconds.
+  path: Assets/Prefabs/Card.prefab
+  artifactKey: Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card.prefab using Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11574a05cc1f4bfc21dd8563128dec6') in 0.133036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.889105 seconds.
+  path: Assets/Prefabs/Card.prefab
+  artifactKey: Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card.prefab using Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2615866653d80368850f2a18539b3384') in 0.113044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.711889 seconds.
+  path: Assets/Prefabs/Card.prefab
+  artifactKey: Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card.prefab using Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2eed58eec26bf5ab9427785977dd054') in 0.133737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.116394 seconds.
+  path: Assets/Prefabs/Card.prefab
+  artifactKey: Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card.prefab using Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc125663da13e25243f9e173c443946') in 0.099961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.544543 seconds.
+  path: Assets/Prefabs/Card.prefab
+  artifactKey: Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card.prefab using Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b40734e3879d221dc5817751941ea1') in 0.112911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.368030 seconds.
+  path: Assets/Prefabs/Card.prefab
+  artifactKey: Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card.prefab using Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f538f354d4d5b970a21fcded6e4fa0') in 0.099031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.205128 seconds.
+  path: Assets/Prefabs/Card.prefab
+  artifactKey: Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card.prefab using Guid(3a5549b86b1c6a242822775159b0717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c57e750871f441ecab637e407ea4d6') in 0.104324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 114.672483 seconds.
+  path: Assets/Cards
+  artifactKey: Guid(dd7b66a7d9c5b2e45a6703f15a608a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards using Guid(dd7b66a7d9c5b2e45a6703f15a608a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88fb61d2c140ce63dab952a9f2f61c85') in 0.007457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.823010 seconds.
+  path: Assets/Cards/z1 Fogo 1.asset
+  artifactKey: Guid(a9d54b8f733b3c8439b43e3f0c42338b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/z1 Fogo 1.asset using Guid(a9d54b8f733b3c8439b43e3f0c42338b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae297be3bb875c78f6a0355c55952a7') in 0.008316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.307134 seconds.
+  path: Assets/Cards/z2 Planta 1.asset
+  artifactKey: Guid(8db397a96b6f8b04caafba7f82a069cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/z2 Planta 1.asset using Guid(8db397a96b6f8b04caafba7f82a069cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d70c10a0522f405e6297a8c2555761f') in 0.007180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.011487 seconds.
+  path: Assets/Cards/z3 Luz 1.asset
+  artifactKey: Guid(5d54b98afc325664ea770c628789beaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/z3 Luz 1.asset using Guid(5d54b98afc325664ea770c628789beaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f62382a28a88f16ff0cc509c849704') in 0.005504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.182837 seconds.
+  path: Assets/Cards/z4 Água 2.asset
+  artifactKey: Guid(607ddcd99ccaaee48aff7df947fb17de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/z4 Água 2.asset using Guid(607ddcd99ccaaee48aff7df947fb17de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fddabd696c2a179cdfd9821a90722c') in 0.005767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.282236 seconds.
+  path: Assets/Cards/z5 Fogo 2.asset
+  artifactKey: Guid(899153c53e4999e45933a4e741be2e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/z5 Fogo 2.asset using Guid(899153c53e4999e45933a4e741be2e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da78eabc92aeac5d10755117d356110') in 0.005793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.786029 seconds.
+  path: Assets/Cards/z6 Planta 2.asset
+  artifactKey: Guid(5cb89cf5454ac1f4498f622c2ab6956b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/z6 Planta 2.asset using Guid(5cb89cf5454ac1f4498f622c2ab6956b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da89db357ad9297544252971b4a2efd') in 0.006237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.398409 seconds.
+  path: Assets/Cards/z7 Psíquico 2.asset
+  artifactKey: Guid(1118dc3231b4e4f4abc7b440c1f60167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/z7 Psíquico 2.asset using Guid(1118dc3231b4e4f4abc7b440c1f60167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0485a95723dde8e2cd53a956ab07f5b9') in 0.012261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.730144 seconds.
+  path: Assets/Cards/z8 Luz 2.asset
+  artifactKey: Guid(d8f8f0ff4b21c0e47bf4783b80f26699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/z8 Luz 2.asset using Guid(d8f8f0ff4b21c0e47bf4783b80f26699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8890b90ded59fb11733f3a2e073b5805') in 0.006085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.062701 seconds.
+  path: Assets/Cards/z9 Sombra 2.asset
+  artifactKey: Guid(86f4d3ac7f90647419e6e869c8cb589f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/z9 Sombra 2.asset using Guid(86f4d3ac7f90647419e6e869c8cb589f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7d9846c5a548539cd0f654e4b88a0e') in 0.005793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 961.684017 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens
+  artifactKey: Guid(9cf5dcbdbf03970499bb7d235626a7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens using Guid(9cf5dcbdbf03970499bb7d235626a7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d57a2a5d25e31bd09c6d9d5a3225dd') in 0.005907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.845069 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Thalacora.png
+  artifactKey: Guid(0a185fd0c92ff03488755bc24d2f7ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Thalacora.png using Guid(0a185fd0c92ff03488755bc24d2f7ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8797b37dfa385d1c79499e22f2af103b') in 0.020058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.726680 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Thalacora.png
+  artifactKey: Guid(0a185fd0c92ff03488755bc24d2f7ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Thalacora.png using Guid(0a185fd0c92ff03488755bc24d2f7ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e393527f088f01a46b1c89b92190e28') in 0.198616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.024818 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Sombra 3 - Múmia Xipófaga.png
+  artifactKey: Guid(363cdd866cbf2dd42aa3033a9782dce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Sombra 3 - Múmia Xipófaga.png using Guid(363cdd866cbf2dd42aa3033a9782dce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf2afc315cbe799a718c66be0d28ea8') in 0.016229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.988760 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Sombra 3 - Múmia Xipófaga.png
+  artifactKey: Guid(363cdd866cbf2dd42aa3033a9782dce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Sombra 3 - Múmia Xipófaga.png using Guid(363cdd866cbf2dd42aa3033a9782dce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a346ceca10e7938ed78f055446ce17d') in 0.158952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.282699 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Sombra 2.png
+  artifactKey: Guid(363cdd866cbf2dd42aa3033a9782dce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Sombra 2.png using Guid(363cdd866cbf2dd42aa3033a9782dce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a375a4e3eb9ca39b519afc10985881') in 0.162305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.128962 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Psíquico 3 - Mothula.png
+  artifactKey: Guid(3c8c48718d0f0064cbe4c8a5b4ee2c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Psíquico 3 - Mothula.png using Guid(3c8c48718d0f0064cbe4c8a5b4ee2c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013235e3b235939ea3142297563c6466') in 0.018847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.129277 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Psíquico 2.png
+  artifactKey: Guid(3c8c48718d0f0064cbe4c8a5b4ee2c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Psíquico 2.png using Guid(3c8c48718d0f0064cbe4c8a5b4ee2c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2438726abf90288d3129fb329664d00') in 0.015374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.382065 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Psíquico 2.png
+  artifactKey: Guid(3c8c48718d0f0064cbe4c8a5b4ee2c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Psíquico 2.png using Guid(3c8c48718d0f0064cbe4c8a5b4ee2c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7968bc42920cae3423c672eb42618e85') in 0.176860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.979892 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Luz 1 - Secretário.png
+  artifactKey: Guid(ff2c9a9ed83fbca4aba00054fbf6511e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Luz 1 - Secretário.png using Guid(ff2c9a9ed83fbca4aba00054fbf6511e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70d93235494f2f5db9b4180d6a94c58') in 0.018307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.833745 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Luz 1.png
+  artifactKey: Guid(ff2c9a9ed83fbca4aba00054fbf6511e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Luz 1.png using Guid(ff2c9a9ed83fbca4aba00054fbf6511e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44ffbd14fc17c2d01019b1882ce61c8') in 0.025444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.653567 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Luz 1.png
+  artifactKey: Guid(ff2c9a9ed83fbca4aba00054fbf6511e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Luz 1.png using Guid(ff2c9a9ed83fbca4aba00054fbf6511e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506f1e9a2a98d5124405bc1e18f283dc') in 0.177274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.352541 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Luz 2 - Ceifador.png
+  artifactKey: Guid(c9c776b8ee1f82d428723a9e55b2f9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Luz 2 - Ceifador.png using Guid(c9c776b8ee1f82d428723a9e55b2f9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c2b7007824245aadfbf2341777549a') in 0.016467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.915072 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Luz 2.png
+  artifactKey: Guid(c9c776b8ee1f82d428723a9e55b2f9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Luz 2.png using Guid(c9c776b8ee1f82d428723a9e55b2f9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d12bf0072ec476a36d65f343e8c6a0b') in 0.025109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.179180 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Luz 2.png
+  artifactKey: Guid(c9c776b8ee1f82d428723a9e55b2f9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Luz 2.png using Guid(c9c776b8ee1f82d428723a9e55b2f9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c968402415fbbf0eafedaca79315529') in 0.158220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.886389 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Fogo 1 - Cobra.png
+  artifactKey: Guid(e27d3f3e4fa21a846b276d5867bceed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Fogo 1 - Cobra.png using Guid(e27d3f3e4fa21a846b276d5867bceed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa973b8d7d43be8713446b0827099706') in 0.016020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.491592 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Fogo 1.png
+  artifactKey: Guid(e27d3f3e4fa21a846b276d5867bceed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Fogo 1.png using Guid(e27d3f3e4fa21a846b276d5867bceed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf3118af3ef1478a207349a82338b81') in 0.015218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.764180 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Fogo 1.png
+  artifactKey: Guid(e27d3f3e4fa21a846b276d5867bceed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Fogo 1.png using Guid(e27d3f3e4fa21a846b276d5867bceed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fd6be8386c2ae72d4f49266e605dc4') in 0.154294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.435583 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Fogo 2 - Anomiático.png
+  artifactKey: Guid(c42c501017577944da50f694e7066ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Fogo 2 - Anomiático.png using Guid(c42c501017577944da50f694e7066ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0110904687044333e2acff646e130ef') in 0.017850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.254356 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Fogo 2.png
+  artifactKey: Guid(c42c501017577944da50f694e7066ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Fogo 2.png using Guid(c42c501017577944da50f694e7066ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80039f223449cf47abad4981bf052a9') in 0.027862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.807207 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Fogo 2.png
+  artifactKey: Guid(c42c501017577944da50f694e7066ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Fogo 2.png using Guid(c42c501017577944da50f694e7066ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fbb2b170905a99ef9a68c7d9b27bebd') in 0.160313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.742574 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Planta 1 - Lagartixa.png
+  artifactKey: Guid(5584ed69cdff976469ac6e4da3f969c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Planta 1 - Lagartixa.png using Guid(5584ed69cdff976469ac6e4da3f969c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21cb3e3f090dae42f07eb47dae514c4c') in 0.015919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.457123 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Planta 1.png
+  artifactKey: Guid(5584ed69cdff976469ac6e4da3f969c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Planta 1.png using Guid(5584ed69cdff976469ac6e4da3f969c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662723935fb6c98e9116ac1f8d4631a4') in 0.021592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.275868 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Planta 1.png
+  artifactKey: Guid(5584ed69cdff976469ac6e4da3f969c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Planta 1.png using Guid(5584ed69cdff976469ac6e4da3f969c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2667cb584575b0710b5cc6ac9ddcef9f') in 0.168311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.369749 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Planta 3 - Dama de Sangue.png
+  artifactKey: Guid(3ef0df7618c97514da04f36f328a347a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Planta 3 - Dama de Sangue.png using Guid(3ef0df7618c97514da04f36f328a347a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef41ff079c2342abc2d0fe1bdfe6b67') in 0.015806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.451129 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Planta 2.png
+  artifactKey: Guid(3ef0df7618c97514da04f36f328a347a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Planta 2.png using Guid(3ef0df7618c97514da04f36f328a347a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c5ae672b17c983e8f233e37551706f') in 0.014954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.628708 seconds.
+  path: Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Planta 2.png
+  artifactKey: Guid(3ef0df7618c97514da04f36f328a347a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Art/Card Art/Personagens/Planta 2.png using Guid(3ef0df7618c97514da04f36f328a347a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58543a5be1b1828a1a14f4ad3e40e9ab') in 0.152367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.909456 seconds.
+  path: Assets/_Udemy Card Battler Assets/Card Model/Card Model.fbx
+  artifactKey: Guid(1f89a578ed4ecee4b9b3d0429697416a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Udemy Card Battler Assets/Card Model/Card Model.fbx using Guid(1f89a578ed4ecee4b9b3d0429697416a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52dc0c42e82ac1905030ea364cfb0696') in 0.135282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 199.779371 seconds.
+  path: Assets/Cards/Thalacora.asset
+  artifactKey: Guid(607ddcd99ccaaee48aff7df947fb17de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Thalacora.asset using Guid(607ddcd99ccaaee48aff7df947fb17de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167d657afd251b49728eee72ee09d79a') in 0.005931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 381.717190 seconds.
+  path: Assets/Prefabs/UI
+  artifactKey: Guid(e1e9c1ec644ae8f47964edff45e9743d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI using Guid(e1e9c1ec644ae8f47964edff45e9743d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372669b40cb259777aa8d329e28e2580') in 0.005862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.068141 seconds.
+  path: Assets/Prefabs/UI/End Turn Button.prefab
+  artifactKey: Guid(27c137da527d0c849ace90f4e8c29042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/End Turn Button.prefab using Guid(27c137da527d0c849ace90f4e8c29042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e20e67d4a0ea93816946dab9362c50') in 0.047734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.192172 seconds.
+  path: Assets/Prefabs/Level Essentials
+  artifactKey: Guid(e16794d8abd9ed14ba6e1cc84c193702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Essentials using Guid(e16794d8abd9ed14ba6e1cc84c193702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e796cf7155634e39907c76ceb7cc7cb3') in 0.005456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.067780 seconds.
+  path: Assets/Prefabs/Level Essentials/Battle Controller.prefab
+  artifactKey: Guid(03cfb5dee224ca34aa95bc101a132d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Essentials/Battle Controller.prefab using Guid(03cfb5dee224ca34aa95bc101a132d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fb6365e165a4c8a5ee368e8b90131b') in 0.010564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036045 seconds.
+  path: Assets/Prefabs/Level Essentials/Hand Controller.prefab
+  artifactKey: Guid(745b592848649a44ab7d7d82d27573e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Essentials/Hand Controller.prefab using Guid(745b592848649a44ab7d7d82d27573e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd702c6b0781f50e53a10e11d6b96a6e7') in 0.012858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/Level Essentials/Deck Controller.prefab
+  artifactKey: Guid(40e63ad97d4504944a7cd971620d7999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Essentials/Deck Controller.prefab using Guid(40e63ad97d4504944a7cd971620d7999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a60e38aded4615a924c3633b1ee58a5') in 0.151457 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

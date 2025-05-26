@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca1c3f380379bc545ba4cf85b2ebcac4, type: 3}
+  m_Name: Mentisect
+  m_EditorClassIdentifier: 
+  cardName: Mentisect
+  description: "Suas asas exalam um padr\xE3o alucin\xF3geno de c\xEDrculos p\xFArpura
+    e magenta, que giram em espirais hipn\xF3ticas que entorpecem os advers\xE1rios.
+    Seus olhos m\xFAltiplos enxergam mem\xF3rias e inten\xE7\xF5es, permitindo-lhe
+    antecipar movimentos inimigos."
+  currentHealth: 7
+  attackPower: 13
+  characterSprite: {fileID: 21300000, guid: 3c8c48718d0f0064cbe4c8a5b4ee2c2d, type: 3}
+  templateSprite: {fileID: 21300000, guid: 1970f9dc266b9a24c81f9f44ac1a05c3, type: 3}

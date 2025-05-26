@@ -49,6 +49,15 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9243eef78194dec4e80fd0ec258c2c9b, type: 2}
   - {fileID: 11400000, guid: 8fa5746e1ed55994d9298acfd7140f64, type: 2}
   - {fileID: 11400000, guid: 5603ca9f2ed96b746a04ffbf32060118, type: 2}
+  - {fileID: 11400000, guid: 607ddcd99ccaaee48aff7df947fb17de, type: 2}
+  - {fileID: 11400000, guid: a9d54b8f733b3c8439b43e3f0c42338b, type: 2}
+  - {fileID: 11400000, guid: 8db397a96b6f8b04caafba7f82a069cd, type: 2}
+  - {fileID: 11400000, guid: 5d54b98afc325664ea770c628789beaf, type: 2}
+  - {fileID: 11400000, guid: 899153c53e4999e45933a4e741be2e4e, type: 2}
+  - {fileID: 11400000, guid: 5cb89cf5454ac1f4498f622c2ab6956b, type: 2}
+  - {fileID: 11400000, guid: 1118dc3231b4e4f4abc7b440c1f60167, type: 2}
+  - {fileID: 11400000, guid: d8f8f0ff4b21c0e47bf4783b80f26699, type: 2}
+  - {fileID: 11400000, guid: 86f4d3ac7f90647419e6e869c8cb589f, type: 2}
   cardToSpawn: {fileID: 1859182404515738576, guid: 3a5549b86b1c6a242822775159b0717a,
     type: 3}
   drawCardCost: 2

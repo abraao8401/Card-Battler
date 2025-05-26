@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca1c3f380379bc545ba4cf85b2ebcac4, type: 3}
+  m_Name: Venevore
+  m_EditorClassIdentifier: 
+  cardName: Venevore
+  description: "Um tronco retorcido coberto por ra\xEDzes pulsantes, do qual despontam
+    cinco flores carn\xEDvoras e tent\xE1culos foliares que farejam a ess\xEAncia
+    vital dos advers\xE1rios. Pode emanar n\xE9voa venenosa pode de suas bocas, envenenando
+    o ar e enfraquecendo inimigos"
+  currentHealth: 9
+  attackPower: 11
+  characterSprite: {fileID: 21300000, guid: 3ef0df7618c97514da04f36f328a347a, type: 3}
+  templateSprite: {fileID: 21300000, guid: e753bd1e8e02b414485851dcb341e23a, type: 3}

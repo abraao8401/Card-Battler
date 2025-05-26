@@ -11,11 +11,11 @@ public class Card : MonoBehaviour
     public bool isPlayer;
 
     public int currentHealth;
-    public int attackPower, manaCost;
+    public int attackPower;
 
-    public TMP_Text healthText, attackText, costText, nameText, actionDescriptionText, loreText;
+    public TMP_Text healthText, attackText, nameText, descriptionText;
 
-    public Image characterArt, bgArt;
+    public Image characterArt, templateArt;
 
     private Vector3 targetPoint;
     private Quaternion targetRot;
@@ -55,19 +55,14 @@ public class Card : MonoBehaviour
     {
         currentHealth = cardSO.currentHealth;
         attackPower = cardSO.attackPower;
-        manaCost = cardSO.manaCost;
 
-        /* healthText.text = currentHealth.ToString();
-        attackText.text = attackPower.ToString();
-        costText.text = manaCost.ToString(); */
         UpdateCardDisplay();
 
         nameText.text = cardSO.cardName;
-        actionDescriptionText.text = cardSO.actionDescription;
-        loreText.text = cardSO.cardLore;
+        descriptionText.text = cardSO.description;
 
         characterArt.sprite = cardSO.characterSprite;
-        bgArt.sprite = cardSO.bgSprite;
+        templateArt.sprite = cardSO.templateSprite;
     }
 
     // Update is called once per frame
@@ -99,8 +94,7 @@ public class Card : MonoBehaviour
 
                     if(selectedPoint.activeCard == null && selectedPoint.isPlayerPoint)
                     {
-                        if (BattleController.instance.playerMana >= manaCost)
-                        {
+
 
                             selectedPoint.activeCard = this;
                             assignedPlace = selectedPoint;
@@ -113,15 +107,7 @@ public class Card : MonoBehaviour
 
                             theHC.RemoveCardFromHand(this);
 
-                            BattleController.instance.SpendPlayerMana(manaCost);
-
                             AudioManager.instance.PlaySFX(4);
-                        } else
-                        {
-                            ReturnToHand();
-
-                            UIController.instance.ShowManaWarning();
-                        }
 
                     } else
                     {
@@ -210,6 +196,5 @@ public class Card : MonoBehaviour
     {
         healthText.text = currentHealth.ToString();
         attackText.text = attackPower.ToString();
-        costText.text = manaCost.ToString();
     }
 }
