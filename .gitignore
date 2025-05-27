@@ -1,5 +1,40 @@
-Library/
-Temp/
-Obj/
+# Diretórios que não devem ser versionados (gerados automaticamente pelo Unity)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Mm]emoryCaptures/
+[Ll]ogs/
+UserSettings/
+
+# Arquivos de IDE (Visual Studio, Rider, etc.)
+.vscode/
 *.csproj
+*.unityproj
 *.unityp
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+
+# Unity generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb
+*.mdb.meta
+
+# Arquivos de backup do sistema ou temporários
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Rider
+.idea/
+*.sln.iml
