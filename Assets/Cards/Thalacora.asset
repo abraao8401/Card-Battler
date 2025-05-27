@@ -17,6 +17,9 @@ MonoBehaviour:
     surge em placas crust\xE1ceas multicoloridas que formam uma defesa natural quase
     impenetr\xE1vel. Suas garras de ferro bruto fragmentam rochas como se fossem
     conchas finas."
+  element: Agua
+  advantage: Fogo
+  disadvantage: Planta
   currentHealth: 13
   attackPower: 7
   characterSprite: {fileID: 21300000, guid: 0a185fd0c92ff03488755bc24d2f7ccf, type: 3}

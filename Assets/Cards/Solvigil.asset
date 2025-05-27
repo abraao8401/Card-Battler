@@ -17,6 +17,9 @@ MonoBehaviour:
     crista de penas erguidas forma uma coroa de raios cintilantes. Ao bater suas
     asas, jatos de luz s\xE3o disparados como flechas solares, clareando sombras
     e guiando aliados."
+  element: Luz
+  advantage: Sombra
+  disadvantage: Psiquico
   currentHealth: 10
   attackPower: 10
   characterSprite: {fileID: 21300000, guid: ff2c9a9ed83fbca4aba00054fbf6511e, type: 3}

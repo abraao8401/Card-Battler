@@ -17,6 +17,9 @@ MonoBehaviour:
     seu rosto \xE9 um v\xF3rtice espiral de puro clar\xE3o. Quando ergue sua foice,
     um arco de resplendor atravessa o campo de batalha, banindo quaisquer amea\xE7as
     que aflijam seus aliados."
+  element: Luz
+  advantage: Sombra
+  disadvantage: Psiquico
   currentHealth: 14
   attackPower: 6
   characterSprite: {fileID: 21300000, guid: c9c776b8ee1f82d428723a9e55b2f9da, type: 3}

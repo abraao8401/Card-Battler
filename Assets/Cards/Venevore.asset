@@ -17,6 +17,9 @@ MonoBehaviour:
     cinco flores carn\xEDvoras e tent\xE1culos foliares que farejam a ess\xEAncia
     vital dos advers\xE1rios. Pode emanar n\xE9voa venenosa pode de suas bocas, envenenando
     o ar e enfraquecendo inimigos"
+  element: Planta
+  advantage: Agua
+  disadvantage: Fogo
   currentHealth: 9
   attackPower: 11
   characterSprite: {fileID: 21300000, guid: 3ef0df7618c97514da04f36f328a347a, type: 3}

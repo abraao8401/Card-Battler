@@ -17,6 +17,9 @@ MonoBehaviour:
     flamejantes ao seu redor. Com seu corpo flex\xEDvel, ela se lan\xE7a em po\xE7as
     de lava e ressurge instantes depois em outra, tornando-a temida por sua mobilidade
     \xEDgnea e ataques explosivos."
+  element: Fogo
+  advantage: Planta
+  disadvantage: Agua
   currentHealth: 10
   attackPower: 10
   characterSprite: {fileID: 21300000, guid: e27d3f3e4fa21a846b276d5867bceed8, type: 3}

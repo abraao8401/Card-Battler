@@ -17,6 +17,9 @@ MonoBehaviour:
     algas luminescentes, liberando fa\xEDscas aqu\xE1ticas ao redor. Cada movimento
     invoca v\xF3rticas que envolvem aliados em escudos de \xE1guas pura e arrastam
     inimigos para fora de posi\xE7\xE3o."
+  element: Agua
+  advantage: Fogo
+  disadvantage: Planta
   currentHealth: 12
   attackPower: 8
   characterSprite: {fileID: 21300000, guid: 307f2f2c97fdc1a44a03f7ca7d3ad186, type: 3}

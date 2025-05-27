@@ -17,6 +17,9 @@ MonoBehaviour:
     por veias de energia pulsante, canalizam sombras ancestrais. O sussurro que emana
     deles invade a mente dos incautos, corroendo a sanidade como bruma densa em noite
     sem lua.
+  element: Sombra
+  advantage: Psiquico
+  disadvantage: Luz
   currentHealth: 8
   attackPower: 12
   characterSprite: {fileID: 21300000, guid: 0c0a7c3e59257694e8365f75046c1a37, type: 3}

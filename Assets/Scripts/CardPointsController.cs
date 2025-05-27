@@ -5,6 +5,7 @@ using UnityEngine;
 public class CardPointsController : MonoBehaviour
 {
     public static CardPointsController instance;
+
     private void Awake()
     {
         instance = this;
@@ -14,13 +15,11 @@ public class CardPointsController : MonoBehaviour
 
     public float timeBetweenAttacks = .25f;
 
-    // Start is called before the first frame update
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
@@ -41,14 +40,15 @@ public class CardPointsController : MonoBehaviour
             {
                 if(enemyCardPoints[i].activeCard != null)
                 {
-                    //Attack the enemy card
-                    enemyCardPoints[i].activeCard.DamageCard(playerCardPoints[i].activeCard.attackPower);
-                } else
+                    // Cálculo de dano com vantagem elemental
+                    int damage = CalculateDamage(playerCardPoints[i].activeCard.cardSO, enemyCardPoints[i].activeCard.cardSO);
+                    enemyCardPoints[i].activeCard.DamageCard(damage);
+                } 
+                else
                 {
-                    //Attack the enemy's overall health
+                    // Ataque direto à vida do inimigo
                     BattleController.instance.DamageEnemy(playerCardPoints[i].activeCard.attackPower);
                 }
-
 
                 playerCardPoints[i].activeCard.anim.SetTrigger("Attack");
 
@@ -81,15 +81,15 @@ public class CardPointsController : MonoBehaviour
             {
                 if (playerCardPoints[i].activeCard != null)
                 {
-                    //Attack the player card
-                    playerCardPoints[i].activeCard.DamageCard(enemyCardPoints[i].activeCard.attackPower);
+                    // Cálculo de dano com vantagem elemental
+                    int damage = CalculateDamage(enemyCardPoints[i].activeCard.cardSO, playerCardPoints[i].activeCard.cardSO);
+                    playerCardPoints[i].activeCard.DamageCard(damage);
                 }
                 else
                 {
-                    //Attack the players's overall health
+                    // Ataque direto à vida do jogador
                     BattleController.instance.DamagePlayer(enemyCardPoints[i].activeCard.attackPower);
                 }
-
 
                 enemyCardPoints[i].activeCard.anim.SetTrigger("Attack");
 
@@ -130,5 +130,21 @@ public class CardPointsController : MonoBehaviour
                 }
             }
         }
+    }
+
+    // Novo método para aplicar vantagem elemental
+    private int CalculateDamage(CardScriptableObject attacker, CardScriptableObject defender)
+    {
+        int damage = attacker.attackPower;
+
+        if (!string.IsNullOrEmpty(attacker.advantage) && !string.IsNullOrEmpty(defender.element))
+        {
+            if (attacker.advantage.ToLower() == defender.element.ToLower())
+            {
+                damage += 2; // bônus de vantagem
+            }
+        }
+
+        return damage;
     }
 }

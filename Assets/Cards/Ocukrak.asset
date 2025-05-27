@@ -17,6 +17,9 @@ MonoBehaviour:
     aura inquietante e sobrenatural. Cada um das dezenas de olhos espalhados por
     seus tent\xE1culos escaneiam cada pensamento ao redor, penetrando at\xE9 os recantos
     mais profundos da mente."
+  element: Psiquico
+  advantage: Luz
+  disadvantage: Sombra
   currentHealth: 10
   attackPower: 10
   characterSprite: {fileID: 21300000, guid: 1c6fba627f2a3094aa6540e88439f078, type: 3}

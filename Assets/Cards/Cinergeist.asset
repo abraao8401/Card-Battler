@@ -17,6 +17,9 @@ MonoBehaviour:
     Sua forma \xE9 envolta por labaredas tr\xEAmulas que se dissipam sempre que se
     move. Possui longos bra\xE7os flamejantes se terminam em garras afiadas, prontas
     para rasgar e consumir."
+  element: Fogo
+  advantage: Planta
+  disadvantage: Agua
   currentHealth: 5
   attackPower: 15
   characterSprite: {fileID: 21300000, guid: c42c501017577944da50f694e7066ea8, type: 3}

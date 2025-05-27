@@ -17,6 +17,9 @@ MonoBehaviour:
     e magenta, que giram em espirais hipn\xF3ticas que entorpecem os advers\xE1rios.
     Seus olhos m\xFAltiplos enxergam mem\xF3rias e inten\xE7\xF5es, permitindo-lhe
     antecipar movimentos inimigos."
+  element: Psiquico
+  advantage: Luz
+  disadvantage: Sombra
   currentHealth: 7
   attackPower: 13
   characterSprite: {fileID: 21300000, guid: 3c8c48718d0f0064cbe4c8a5b4ee2c2d, type: 3}

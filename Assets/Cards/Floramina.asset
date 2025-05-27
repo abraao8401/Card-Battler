@@ -17,6 +17,9 @@ MonoBehaviour:
     olhar rubro examina o ambiente com precis\xE3o serena, enquanto a cauda \u2014
     uma folhagem viva, serrilhada e extremamente afiada \u2014 dan\xE7a lentamente,
     liberando fios de n\xE9voa arom\xE1tica."
+  element: Planta
+  advantage: Agua
+  disadvantage: Fogo
   currentHealth: 14
   attackPower: 6
   characterSprite: {fileID: 21300000, guid: 5584ed69cdff976469ac6e4da3f969c0, type: 3}
