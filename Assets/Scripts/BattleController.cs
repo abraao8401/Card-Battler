@@ -12,7 +12,7 @@ public class BattleController : MonoBehaviour
     }
 
 
-    public int startingMana = 4, maxMana = 10;
+    public int startingMana = 5, maxMana = 10;
     public int playerMana, enemyMana;
     private int currentPlayerMaxMana, currentEnemyMaxMana;
 
@@ -122,13 +122,11 @@ public class BattleController : MonoBehaviour
                     UIController.instance.endTurnButton.SetActive(true);
                     UIController.instance.drawCardButton.SetActive(true);
 
-                    if (currentPlayerMaxMana < maxMana)
+                    if (playerMana < maxMana)
                     {
-                        currentPlayerMaxMana++;
+                        playerMana++;
+                        UIController.instance.SetPlayerManaText(playerMana);
                     }
-
-                    FillPlayerMana();
-
                     DeckController.instance.DrawMultipleCards(cardsToDrawPerTurn);
 
                     break;
@@ -147,13 +145,11 @@ public class BattleController : MonoBehaviour
                     //Debug.Log("skipping enemy actions");
                     //AdvanceTurn();
 
-                    if (currentEnemyMaxMana < maxMana)
+                    if (enemyMana < maxMana)
                     {
-                        currentEnemyMaxMana++;
+                        enemyMana++;
+                        UIController.instance.SetEnemyManaText(enemyMana);
                     }
-
-                    FillEnemyMana();
-
                     EnemyController.instance.StartAction();
 
                     break;
