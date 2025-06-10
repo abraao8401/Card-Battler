@@ -146,32 +146,41 @@ public class BattleController : MonoBehaviour
 
                     break;
 
-case TurnOrder.enemyActive:
+                case TurnOrder.enemyActive:
 
-    if (!enemyDidFirstTurn)
-    {
-        enemyDidFirstTurn = true;
-        EnemyController.instance.StartAction();
-    }
-    else
-    {
-        if (enemyMana < maxMana)
-        {
-            enemyMana++;
-            UIController.instance.SetEnemyManaText(enemyMana);
-        }
+                    if (enemyDidFirstTurn)
+                    {
+                        if (enemyMana < maxMana)
+                        {
+                            enemyMana++;
+                            UIController.instance.SetEnemyManaText(enemyMana);
+                        }
 
-        while (enemyMana >= 2)
-        {
-            EnemyController.instance.SpawnCardInHand();
-            enemyMana -= 2;
-            UIController.instance.SetEnemyManaText(enemyMana);
-        }
+                        while (enemyMana >= 2)
+                        {
+                            EnemyController.instance.SpawnCardInHand();
+                            enemyMana -= 2;
+                            UIController.instance.SetEnemyManaText(enemyMana);
+                        }
+                    }
 
-        EnemyController.instance.StartAction();
-    }
+                    EnemyController.instance.StartAction();
 
-    break;
+                    break;
+
+                case TurnOrder.enemyCardAttacks:
+
+                    if (!enemyDidFirstTurn)
+                    {
+                        enemyDidFirstTurn = true;
+                        AdvanceTurn();
+                    }
+                    else
+                    {
+                        CardPointsController.instance.EnemyAttack();
+                    }
+
+                    break;
             }
         }
     }
