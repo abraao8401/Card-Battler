@@ -11,7 +11,6 @@ public class BattleController : MonoBehaviour
         instance = this;
     }
 
-
     public int startingMana = 5, maxMana = 10;
     public int playerMana, enemyMana;
     private int currentPlayerMaxMana, currentEnemyMaxMana;
@@ -30,14 +29,14 @@ public class BattleController : MonoBehaviour
 
     public float resultScreenDelayTime = 1f;
 
-    [Range(0f,1f)]
+    [Range(0f, 1f)]
     public float playerFirstChance = .5f;
 
-    // Start is called before the first frame update
+    private bool playerDidFirstTurn = false;
+    private bool enemyDidFirstTurn = false;
+
     void Start()
     {
-        //playerMana = startingMana;
-        //UIController.instance.SetPlayerManaText(playerMana);
         currentPlayerMaxMana = startingMana;
         FillPlayerMana();
 
@@ -49,7 +48,7 @@ public class BattleController : MonoBehaviour
         currentEnemyMaxMana = startingMana;
         FillEnemyMana();
 
-        if(Random.value > playerFirstChance)
+        if (Random.value > playerFirstChance)
         {
             currentPhase = TurnOrder.playerCardAttacks;
             AdvanceTurn();
@@ -58,10 +57,9 @@ public class BattleController : MonoBehaviour
         AudioManager.instance.PlayBGM();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.T))
+        if (Input.GetKeyDown(KeyCode.T))
         {
             AdvanceTurn();
         }
@@ -69,9 +67,9 @@ public class BattleController : MonoBehaviour
 
     public void SpendPlayerMana(int amountToSpend)
     {
-        playerMana = playerMana - amountToSpend;
+        playerMana -= amountToSpend;
 
-        if(playerMana < 0)
+        if (playerMana < 0)
         {
             playerMana = 0;
         }
@@ -81,7 +79,6 @@ public class BattleController : MonoBehaviour
 
     public void FillPlayerMana()
     {
-        //playerMana = startingMana;
         playerMana = currentPlayerMaxMana;
         UIController.instance.SetPlayerManaText(playerMana);
     }
@@ -122,47 +119,59 @@ public class BattleController : MonoBehaviour
                     UIController.instance.endTurnButton.SetActive(true);
                     UIController.instance.drawCardButton.SetActive(true);
 
-                    if (playerMana < maxMana)
+                    if (playerDidFirstTurn)
                     {
-                        playerMana++;
-                        UIController.instance.SetPlayerManaText(playerMana);
+                        if (playerMana < maxMana)
+                        {
+                            playerMana++;
+                            UIController.instance.SetPlayerManaText(playerMana);
+                        }
+
+                        DeckController.instance.DrawMultipleCards(cardsToDrawPerTurn);
                     }
-                    DeckController.instance.DrawMultipleCards(cardsToDrawPerTurn);
 
                     break;
 
                 case TurnOrder.playerCardAttacks:
 
-                    //Debug.Log("skipping player card attacks");
-                    //AdvanceTurn();
-
-                    CardPointsController.instance.PlayerAttack();
-
-                    break;
-
-                case TurnOrder.enemyActive:
-
-                    //Debug.Log("skipping enemy actions");
-                    //AdvanceTurn();
-
-                    if (enemyMana < maxMana)
+                    if (!playerDidFirstTurn)
                     {
-                        enemyMana++;
-                        UIController.instance.SetEnemyManaText(enemyMana);
+                        playerDidFirstTurn = true;
+                        AdvanceTurn();
                     }
-                    EnemyController.instance.StartAction();
+                    else
+                    {
+                        CardPointsController.instance.PlayerAttack();
+                    }
 
                     break;
 
-                case TurnOrder.enemyCardAttacks:
+case TurnOrder.enemyActive:
 
-                    //Debug.Log("skipping enemy card attacks");
-                    //AdvanceTurn();
+    if (!enemyDidFirstTurn)
+    {
+        enemyDidFirstTurn = true;
+        EnemyController.instance.StartAction();
+    }
+    else
+    {
+        if (enemyMana < maxMana)
+        {
+            enemyMana++;
+            UIController.instance.SetEnemyManaText(enemyMana);
+        }
 
-                    CardPointsController.instance.EnemyAttack();
+        while (enemyMana >= 2)
+        {
+            EnemyController.instance.SpawnCardInHand();
+            enemyMana -= 2;
+            UIController.instance.SetEnemyManaText(enemyMana);
+        }
 
-                    break;
+        EnemyController.instance.StartAction();
+    }
 
+    break;
             }
         }
     }
@@ -177,15 +186,13 @@ public class BattleController : MonoBehaviour
 
     public void DamagePlayer(int damageAmount)
     {
-        if(playerHealth > 0 || !battleEnded)
+        if (playerHealth > 0 || !battleEnded)
         {
             playerHealth -= damageAmount;
 
-            if(playerHealth <= 0)
+            if (playerHealth <= 0)
             {
                 playerHealth = 0;
-
-                //End Battle
                 EndBattle();
             }
 
@@ -208,8 +215,6 @@ public class BattleController : MonoBehaviour
             if (enemyHealth <= 0)
             {
                 enemyHealth = 0;
-
-                //End Battle
                 EndBattle();
             }
 
@@ -229,19 +234,20 @@ public class BattleController : MonoBehaviour
 
         HandController.instance.EmptyHand();
 
-        if(enemyHealth <= 0)
+        if (enemyHealth <= 0)
         {
             UIController.instance.battleResultText.text = "VOCÊ VENCEU!";
 
-            foreach(CardPlacePoint point in CardPointsController.instance.enemyCardPoints)
+            foreach (CardPlacePoint point in CardPointsController.instance.enemyCardPoints)
             {
-                if(point.activeCard != null)
+                if (point.activeCard != null)
                 {
                     point.activeCard.MoveToPoint(discardPoint.position, point.activeCard.transform.rotation);
                 }
             }
 
-        } else
+        }
+        else
         {
             UIController.instance.battleResultText.text = "VOCÊ PERDEU!";
 
@@ -254,15 +260,12 @@ public class BattleController : MonoBehaviour
             }
         }
 
-
-
         StartCoroutine(ShowResultCo());
     }
 
     IEnumerator ShowResultCo()
     {
         yield return new WaitForSeconds(resultScreenDelayTime);
-
         UIController.instance.battleEndScreen.SetActive(true);
     }
 }

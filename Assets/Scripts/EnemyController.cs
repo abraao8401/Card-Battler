@@ -307,7 +307,7 @@ public class EnemyController : MonoBehaviour
         List<CardScriptableObject> cardsToPlay = new List<CardScriptableObject>();
         foreach (CardScriptableObject card in cardsInHand)
         {
-                cardsToPlay.Add(card);
+            cardsToPlay.Add(card);
         }
 
         if (cardsToPlay.Count > 0)
@@ -319,4 +319,15 @@ public class EnemyController : MonoBehaviour
 
         return cardToPlay;
     }
+
+    public void SpawnCardInHand()
+    {
+        Card nova = Instantiate(cardToSpawn, cardSpawnPoint.position, cardSpawnPoint.rotation);
+        int idx = Random.Range(0, deckToUse.Count);
+        nova.cardSO = deckToUse[idx];
+        nova.SetupCard();
+        nova.inHand = true;
+        cardsInHand.Add(nova.cardSO);
+    }
+
 }

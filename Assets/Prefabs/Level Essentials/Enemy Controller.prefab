@@ -53,7 +53,7 @@ MonoBehaviour:
     type: 3}
   cardSpawnPoint: {fileID: 7605998085222053542}
   enemyAIType: 3
-  startHandSize: 5
+  startHandSize: 2
 --- !u!1 &7605998085222053543
 GameObject:
   m_ObjectHideFlags: 0

@@ -1236,6 +1236,11 @@ PrefabInstance:
       propertyPath: enemyAIType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7605998084041155716, guid: 57666248cf82e5c4ba9a78b49d078b73,
+        type: 3}
+      propertyPath: startHandSize
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7605998084041155717, guid: 57666248cf82e5c4ba9a78b49d078b73,
         type: 3}
       propertyPath: m_Name
