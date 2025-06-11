@@ -58,6 +58,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1118dc3231b4e4f4abc7b440c1f60167, type: 2}
   - {fileID: 11400000, guid: d8f8f0ff4b21c0e47bf4783b80f26699, type: 2}
   - {fileID: 11400000, guid: 86f4d3ac7f90647419e6e869c8cb589f, type: 2}
+  - {fileID: 11400000, guid: bab05c5955d24fe4a9276a76ad6844dd, type: 2}
+  - {fileID: 11400000, guid: 6df924dc586445347ab71007f5d6d352, type: 2}
+  - {fileID: 11400000, guid: acfe1e0125a5e6b4fb173c2ea211fadf, type: 2}
+  - {fileID: 11400000, guid: 3e2bb80590106e94c9fe3730af54b4c3, type: 2}
+  - {fileID: 11400000, guid: acfe1e0125a5e6b4fb173c2ea211fadf, type: 2}
+  - {fileID: 11400000, guid: acfe1e0125a5e6b4fb173c2ea211fadf, type: 2}
   cardToSpawn: {fileID: 1859182404515738576, guid: 3a5549b86b1c6a242822775159b0717a,
     type: 3}
   drawCardCost: 2

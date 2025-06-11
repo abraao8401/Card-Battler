@@ -8,7 +8,9 @@ public class CardScriptableObject : ScriptableObject
     public string cardName;
 
     [TextArea]
-    public string description, element, advantage, disadvantage;
+    public string description;
+
+    public string element, advantage, disadvantage;
 
     public int currentHealth, attackPower;
 

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca1c3f380379bc545ba4cf85b2ebcac4, type: 3}
+  m_Name: Drenia
+  m_EditorClassIdentifier: 
+  cardName: Drenia
+  description: "Ergue-se das \xE1guas estagnadas com passos lentos e constantes.
+    Seu corpo parece feito do pr\xF3prio lodo, como uma extens\xE3o do p\xE2ntano.
+    Seus cabelos enredados de algas ocultam olhos que j\xE1 n\xE3o parecem mais pertencer
+    a este mundo."
+  element: Agua
+  advantage: Fogo
+  disadvantage: Planta
+  currentHealth: 8
+  attackPower: 12
+  characterSprite: {fileID: 21300000, guid: a8a9bf1e769ebf3438d75b501ef18920, type: 3}
+  templateSprite: {fileID: 21300000, guid: c60b37c9c2bea634eaefbeb2e717ce65, type: 3}
