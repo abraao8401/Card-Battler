@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public string battleSelectScene;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +15,7 @@ public class MainMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void StartGame()
@@ -32,6 +31,12 @@ public class MainMenu : MonoBehaviour
 
         Debug.Log("Quitting Game");
 
+        AudioManager.instance.PlaySFX(0);
+    }
+
+    public void Tutorial()
+    {
+        SceneManager.LoadScene("Tutorial");
         AudioManager.instance.PlaySFX(0);
     }
 }

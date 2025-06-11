@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1802917, g: 0.22572428, b: 0.30693048, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -675,6 +675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   battleSelectScene: Battle Select
+  tutorialScene: Tutorial
 --- !u!1 &961739749
 GameObject:
   m_ObjectHideFlags: 0
@@ -1340,13 +1341,19 @@ PrefabInstance:
       objectReference: {fileID: 929907353}
     - target: {fileID: 1709992492842242877, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 11500000, guid: b88bba5261902bd4fb007817cecd4341,
+        type: 3}
+    - target: {fileID: 1709992492842242877, guid: 27c137da527d0c849ace90f4e8c29042,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1709992492842242877, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: StartGame
+      value: Tutorial
       objectReference: {fileID: 0}
     - target: {fileID: 1709992492842242877, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}
