@@ -23,6 +23,7 @@ public class AudioManager : MonoBehaviour
     public AudioSource menuMusic;
     public AudioSource battleSelectMusic;
     public AudioSource[] bgm;
+    public AudioSource deckAreaMusic;
     private int currentBGM;
     private bool playingBGM;
 
@@ -56,6 +57,7 @@ public class AudioManager : MonoBehaviour
     {
         menuMusic.Stop();
         battleSelectMusic.Stop();
+        deckAreaMusic.Stop();
         foreach(AudioSource track in bgm)
         {
             track.Stop();
@@ -78,7 +80,11 @@ public class AudioManager : MonoBehaviour
             battleSelectMusic.Play();
         }
     }
-
+    public void PlayDeckAreaMusic()
+    {
+        StopMusic();
+        deckAreaMusic.Play();
+    }
     public void PlayBGM()
     {
         StopMusic();

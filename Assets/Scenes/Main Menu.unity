@@ -980,18 +980,48 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 1709992492842242877, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1709992492842242877, guid: 27c137da527d0c849ace90f4e8c29042,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1709992492842242877, guid: 27c137da527d0c849ace90f4e8c29042,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1709992492842242877, guid: 27c137da527d0c849ace90f4e8c29042,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 929907353}
+      objectReference: {fileID: 1110739245}
+    - target: {fileID: 1709992492842242877, guid: 27c137da527d0c849ace90f4e8c29042,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1709992492842242877, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: StartGame
+      value: SelectDeckArea
       objectReference: {fileID: 0}
     - target: {fileID: 1709992492842242877, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: MainMenu, Assembly-CSharp
+      value: BattleSelectButton, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1709992492842242877, guid: 27c137da527d0c849ace90f4e8c29042,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1709992492842242877, guid: 27c137da527d0c849ace90f4e8c29042,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1709992492842242878, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}
@@ -1095,6 +1125,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
   m_EffectDistance: {x: 2, y: 2}
   m_UseGraphicAlpha: 1
+--- !u!114 &1110739245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110739243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b932d4933e25774ca3f80d42c671ce0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelToLoad: Deck
 --- !u!1001 &1242926987
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1938,6 +1981,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1814707206}
   m_CullTransparentMesh: 1
+--- !u!82 &1923627423 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1502760350324969365, guid: e2ae64314726b744eb76d8a37b407e38,
+    type: 3}
+  m_PrefabInstance: {fileID: 709800683447843675}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &94899141713794305
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2069,6 +2118,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 709800682660285830, guid: e2ae64314726b744eb76d8a37b407e38,
+        type: 3}
+      propertyPath: deckAreaMusic
+      value: 
+      objectReference: {fileID: 1923627423}
     - target: {fileID: 709800682660285831, guid: e2ae64314726b744eb76d8a37b407e38,
         type: 3}
       propertyPath: m_Name
