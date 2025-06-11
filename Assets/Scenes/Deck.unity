@@ -2729,18 +2729,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a6312bdf0a2c456dbee845eda134601, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  originalPosition: {x: 0, y: 0, z: 0}
-  originalRotation: {x: 0, y: 0, z: 0, w: 0}
-  originalScale: {x: 0, y: 0, z: 0}
-  targetPosition: {x: 0, y: 0, z: 0}
-  targetRotation: {x: 0, y: 0, z: 0, w: 0}
-  targetScale: {x: 0, y: 0, z: 0}
-  moveSpeed: 5
-  rotateSpeed: 540
-  zoomDistance: 1.55
-  zoomScale: {x: 3, y: 3, z: 3}
-  isZoomed: 0
-  hasSavedOriginal: 0
 --- !u!4 &1063975396 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1859182404515738577, guid: e667980d77074e6c99ebf8369f11d67a,
@@ -6702,18 +6690,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a6312bdf0a2c456dbee845eda134601, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  originalPosition: {x: 0, y: 0, z: 0}
-  originalRotation: {x: 0, y: 0, z: 0, w: 0}
-  originalScale: {x: 0, y: 0, z: 0}
-  targetPosition: {x: 0, y: 0, z: 0}
-  targetRotation: {x: 0, y: 0, z: 0, w: 0}
-  targetScale: {x: 0, y: 0, z: 0}
-  moveSpeed: 5
-  rotateSpeed: 540
-  zoomDistance: 1.55
-  zoomScale: {x: 3, y: 3, z: 3}
-  isZoomed: 0
-  hasSavedOriginal: 0
 --- !u!114 &2083321125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6729,7 +6705,7 @@ MonoBehaviour:
   moveSpeed: 5
   rotateSpeed: 540
   zoomDistance: 1.55
-  zoomScale: {x: 2, y: 2, z: 2}
+  zoomScale: {x: 1, y: 1, z: 1}
 --- !u!1 &2112796467
 GameObject:
   m_ObjectHideFlags: 0
