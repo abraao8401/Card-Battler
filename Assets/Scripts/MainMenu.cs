@@ -39,4 +39,10 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Tutorial");
         AudioManager.instance.PlaySFX(0);
     }
+
+        public void Deck()
+    {
+        SceneManager.LoadScene("Deck");
+        AudioManager.instance.PlaySFX(0);
+    }
 }

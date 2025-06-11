@@ -26,10 +26,4 @@ public class BattleSelectButton : MonoBehaviour
         AudioManager.instance.PlaySFX(0);
     }
 
-    public void SelectDeckArea()
-    {   
-        SceneManager.LoadScene(levelToLoad);
-
-        AudioManager.instance.PlayDeckAreaMusic();
-    }
 }

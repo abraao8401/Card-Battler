@@ -675,7 +675,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   battleSelectScene: Battle Select
-  tutorialScene: Tutorial
 --- !u!1 &961739749
 GameObject:
   m_ObjectHideFlags: 0
@@ -998,7 +997,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1110739245}
+      objectReference: {fileID: 929907353}
     - target: {fileID: 1709992492842242877, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
@@ -1007,12 +1006,12 @@ PrefabInstance:
     - target: {fileID: 1709992492842242877, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SelectDeckArea
+      value: Deck
       objectReference: {fileID: 0}
     - target: {fileID: 1709992492842242877, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BattleSelectButton, Assembly-CSharp
+      value: MainMenu, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1709992492842242877, guid: 27c137da527d0c849ace90f4e8c29042,
         type: 3}
@@ -1126,19 +1125,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
   m_EffectDistance: {x: 2, y: 2}
   m_UseGraphicAlpha: 1
---- !u!114 &1110739245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1110739243}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b932d4933e25774ca3f80d42c671ce0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelToLoad: Deck
 --- !u!1001 &1242926987
 PrefabInstance:
   m_ObjectHideFlags: 0
