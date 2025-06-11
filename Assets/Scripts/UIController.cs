@@ -33,23 +33,23 @@ public class UIController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(manaWarningCounter > 0)
+        if (manaWarningCounter > 0)
         {
             manaWarningCounter -= Time.deltaTime;
 
-            if(manaWarningCounter <= 0)
+            if (manaWarningCounter <= 0)
             {
                 manaWarning.SetActive(false);
             }
         }
 
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             PauseUnpause();
         }
@@ -124,12 +124,13 @@ public class UIController : MonoBehaviour
 
     public void PauseUnpause()
     {
-        if(pauseScreen.activeSelf == false)
+        if (pauseScreen.activeSelf == false)
         {
             pauseScreen.SetActive(true);
 
             Time.timeScale = 0f;
-        } else
+        }
+        else
         {
             pauseScreen.SetActive(false);
 
@@ -138,4 +139,5 @@ public class UIController : MonoBehaviour
 
         AudioManager.instance.PlaySFX(0);
     }
+    
 }
