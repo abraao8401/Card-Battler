@@ -32,4 +32,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Elementos.unity
     guid: 6e68071f3a9c4d64eb4715b8b66610bd
+    path: Assets/Scenes/Deck.unity
+    guid: f615534ce7fb5acd3a29870d3db3e451
   m_configObjects: {}
