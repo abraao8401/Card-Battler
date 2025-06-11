@@ -12,15 +12,17 @@ public class CardZoom : MonoBehaviour
 
     public float moveSpeed = 5f;
     public float rotateSpeed = 540f;
-    public float zoomDistance = 1.55f;
-    public Vector3 zoomScale = new Vector3(3f, 3f, 3f);
+
+    public float zoomDistance = 1.75f;
+    public Vector3 zoomScale = new Vector3(1.7f, 1.7f, 1.7f);
 
     private bool isZoomed = false;
+    private bool isSelected = false;
     private bool hasSavedOriginal = false;
 
     void Start()
     {
-        // Inicializa como a posição atual
+        // Inicializa com valores atuais
         originalPosition = transform.position;
         originalRotation = transform.rotation;
         originalScale = transform.localScale;
@@ -32,10 +34,16 @@ public class CardZoom : MonoBehaviour
 
     void Update()
     {
-        // Aplica suavemente o movimento, rotação e escala
+        // Suaviza transformações
         transform.position = Vector3.Lerp(transform.position, targetPosition, moveSpeed * Time.deltaTime);
         transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotateSpeed * Time.deltaTime);
         transform.localScale = Vector3.Lerp(transform.localScale, targetScale, moveSpeed * Time.deltaTime);
+
+        // Se selecionado e apertar Ctrl → faz zoom
+        if (isSelected && !isZoomed && (Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.RightControl)))
+        {
+            ZoomIn();
+        }
     }
 
     private void OnMouseDown()
@@ -48,13 +56,15 @@ public class CardZoom : MonoBehaviour
             hasSavedOriginal = true;
         }
 
-        if (!isZoomed)
+        // Se já estiver com zoom, clicando novamente volta ao original
+        if (isZoomed)
         {
-            ZoomIn();
+            ZoomOut();
+            isSelected = false;
         }
         else
         {
-            ZoomOut();
+            isSelected = true;
         }
     }
 
@@ -62,13 +72,12 @@ public class CardZoom : MonoBehaviour
     {
         isZoomed = true;
 
-        // Ponto na frente da câmera
         Vector3 camPos = Camera.main.transform.position;
         Vector3 camForward = Camera.main.transform.forward;
         Vector3 camUp = Camera.main.transform.up;
 
         targetPosition = camPos + camForward * zoomDistance + camUp * 0.2f;
-        targetRotation = Quaternion.Euler(-15f, 0f, 0f); // Inclina a carta levemente
+        targetRotation = Quaternion.Euler(-15f, 0f, 0f);
         targetScale = zoomScale;
     }
 
