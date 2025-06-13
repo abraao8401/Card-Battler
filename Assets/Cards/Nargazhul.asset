@@ -20,7 +20,7 @@ MonoBehaviour:
   element: Sombra
   advantage: Psiquico
   disadvantage: Luz
-  currentHealth: 8
-  attackPower: 12
+  currentHealth: 11
+  attackPower: 9
   characterSprite: {fileID: 21300000, guid: 0c0a7c3e59257694e8365f75046c1a37, type: 3}
   templateSprite: {fileID: 21300000, guid: 9800b33ae4c10b0478047e7b56b2c228, type: 3}
