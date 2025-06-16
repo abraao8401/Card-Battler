@@ -10,16 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ca1c3f380379bc545ba4cf85b2ebcac4, type: 3}
-  m_Name: Scorikarn
+  m_Name: Ardofel
   m_EditorClassIdentifier: 
-  cardName: Scorikarn
-  description: "Rasteja seu corpo de pedra com a precis\xE3o de um predador e o brilho
-    de uma fornalha viva. Os cristais vermelhos em sua firme carapa\xE7a canalizam
-    calor extremo, e seu ferr\xE3o irrompe como uma labareda certeira e devastadora."
+  cardName: Ardofel
+  description: "Guardi\xE3o implac\xE1vel, ele defende seu mestre e seus aliados
+    com ferocidade \xEDgnea e olhos que brilham como carv\xF5es em brasa. Se o invasor
+    tiver coragem de avan\xE7ar, cospe um vendaval de chamas cortantes, reduzindo
+    pedra e a\xE7o a cinzas."
   element: Fogo
   advantage: Planta
   disadvantage: Agua
-  currentHealth: 12
-  attackPower: 8
-  characterSprite: {fileID: 21300000, guid: 917f2dd728ba1d140ba9d3dcf1be94ec, type: 3}
+  currentHealth: 14
+  attackPower: 6
+  characterSprite: {fileID: 21300000, guid: bc71b370947fe1247878461193117458, type: 3}
   templateSprite: {fileID: 21300000, guid: 5b1d807206c31c34d83a373866e88306, type: 3}

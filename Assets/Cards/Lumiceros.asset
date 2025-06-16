@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca1c3f380379bc545ba4cf85b2ebcac4, type: 3}
+  m_Name: Lumiceros
+  m_EditorClassIdentifier: 
+  cardName: Lumiceros
+  description: "Majestoso e imponente, seu exterior \xE9 composto por uma coura\xE7a
+    de marfim reluzente e veias de ouro. Quando batalha, faz investidas impar\xE1veis
+    que rompem qualquer barreira que tente o impedir de empalar seus advers\xE1rios
+    com seu chifre prism\xE1tico."
+  element: Luz
+  advantage: Sombra
+  disadvantage: Psiquico
+  currentHealth: 9
+  attackPower: 11
+  characterSprite: {fileID: 21300000, guid: abb4b8765908a974b84ccbb6bef8a0d9, type: 3}
+  templateSprite: {fileID: 21300000, guid: ad9aec236aed2634eb5c40bfadcd2d10, type: 3}

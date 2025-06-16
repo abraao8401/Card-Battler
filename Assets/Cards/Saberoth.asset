@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ca1c3f380379bc545ba4cf85b2ebcac4, type: 3}
-  m_Name: Tenebrall
+  m_Name: Saberoth
   m_EditorClassIdentifier: 
-  cardName: Tenebrall
-  description: "Onde sua presen\xE7a toca, as chamas se apagam e os ecos se calam,
-    deixando as mentes dos advers\xE1rios na escurid\xE3o completa. Quando ergue
-    os bra\xE7os, sombras se desprendem de seu corpo como enxames vivos, prontas
-    para drenar e consumir."
+  cardName: Saberoth
+  description: "Quando agita o orbe \xE9bano em sua cauda, libera um v\xE9u de fuma\xE7a
+    negra que envolve os sentidos \u2014 vis\xE3o, audi\xE7\xE3o, at\xE9 o preparo
+    dos reflexos falham. Nessa brecha, investe como flecha e torna at\xE9 o mais
+    poderoso dos inimigos uma presa f\xE1cil."
   element: Sombra
   advantage: Psiquico
   disadvantage: Luz
-  currentHealth: 8
-  attackPower: 12
-  characterSprite: {fileID: 21300000, guid: 363cdd866cbf2dd42aa3033a9782dce7, type: 3}
+  currentHealth: 10
+  attackPower: 10
+  characterSprite: {fileID: 21300000, guid: fced3ef8f026ac0428fb9cb937a78623, type: 3}
   templateSprite: {fileID: 21300000, guid: 9800b33ae4c10b0478047e7b56b2c228, type: 3}

@@ -10,16 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ca1c3f380379bc545ba4cf85b2ebcac4, type: 3}
-  m_Name: Scorikarn
+  m_Name: Vulcardus
   m_EditorClassIdentifier: 
-  cardName: Scorikarn
-  description: "Rasteja seu corpo de pedra com a precis\xE3o de um predador e o brilho
-    de uma fornalha viva. Os cristais vermelhos em sua firme carapa\xE7a canalizam
-    calor extremo, e seu ferr\xE3o irrompe como uma labareda certeira e devastadora."
+  cardName: Vulcardus
+  description: "Ruge como erup\xE7\xE3o viva, misturando engrenagens corro\xEDdas
+    e veias de lava pulsante. Em combate, sua coura\xE7a flamejante reflete golpes
+    enquanto seus punhos hidr\xE1ulicos disparam jatos de labaredas pressurizadas,
+    queimando tudo em seu alcance."
   element: Fogo
   advantage: Planta
-  disadvantage: Agua
-  currentHealth: 12
-  attackPower: 8
-  characterSprite: {fileID: 21300000, guid: 917f2dd728ba1d140ba9d3dcf1be94ec, type: 3}
+  disadvantage: "\xC1gua"
+  currentHealth: 8
+  attackPower: 12
+  characterSprite: {fileID: 21300000, guid: 23cf29a12ae8de440b690425e811a8b3, type: 3}
   templateSprite: {fileID: 21300000, guid: 5b1d807206c31c34d83a373866e88306, type: 3}

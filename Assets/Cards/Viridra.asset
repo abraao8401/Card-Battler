@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca1c3f380379bc545ba4cf85b2ebcac4, type: 3}
+  m_Name: Viridra
+  m_EditorClassIdentifier: 
+  cardName: Viridra
+  description: "Este ser caminha com leveza, deixando um rastro de flores silvestres
+    onde seus cascos tocam. Quando amea\xE7ado, invoca ra\xEDzes que brotam do solo
+    para prender seus inimigos, enquanto cria uma n\xE9voa de esporos que induz ao
+    sono \u2014 eterno se necess\xE1rio."
+  element: Planta
+  advantage: Agua
+  disadvantage: Fogo
+  currentHealth: 12
+  attackPower: 8
+  characterSprite: {fileID: 21300000, guid: eebcfad8f97e9054096b2ed26c4ff8dd, type: 3}
+  templateSprite: {fileID: 21300000, guid: e753bd1e8e02b414485851dcb341e23a, type: 3}

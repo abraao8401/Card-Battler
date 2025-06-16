@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ca1c3f380379bc545ba4cf85b2ebcac4, type: 3}
-  m_Name: Ocukrak
+  m_Name: Coreata
   m_EditorClassIdentifier: 
-  cardName: Ocukrak
-  description: "Uma entidade ps\xEDquica de apar\xEAncia cefal\xF3pode, mas com uma
-    aura inquietante e sobrenatural. Cada um das dezenas de olhos espalhados por
-    seus tent\xE1culos escaneiam cada pensamento ao redor, penetrando at\xE9 os recantos
-    mais profundos da mente."
+  cardName: Coreata
+  description: "Sua cabe\xE7a, formada pela materializa\xE7\xE3o de seu poder ps\xEDquico,
+    controla seu corpo met\xE1lico e resistente em uma dan\xE7a fluida e afiada.
+    No ritmo de uma m\xFAsica que s\xF3 ela ouve, gira, salta, ataca e desvia com
+    a precis\xE3o de uma m\xE1quina."
   element: Psiquico
   advantage: Luz
   disadvantage: Sombra
-  currentHealth: 12
-  attackPower: 8
-  characterSprite: {fileID: 21300000, guid: 1c6fba627f2a3094aa6540e88439f078, type: 3}
+  currentHealth: 11
+  attackPower: 9
+  characterSprite: {fileID: 21300000, guid: 492d9ef4c8190cf4fba9c71b2cf5ae77, type: 3}
   templateSprite: {fileID: 21300000, guid: 1970f9dc266b9a24c81f9f44ac1a05c3, type: 3}

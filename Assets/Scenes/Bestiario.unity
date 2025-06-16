@@ -41281,7 +41281,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 307, y: -69.3}
+  m_AnchoredPosition: {x: 291.1, y: -69.3}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1805798974
@@ -46110,7 +46110,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Vida: 10\n\nAtaque: 10\n\nAlemento: Ps\xEDquico"
+  m_text: "Vida: 12\n\nAtaque: 8\n\nAlemento: Ps\xEDquico"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b638c41e2084d25ae9cf0a79dca910be, type: 2}
   m_sharedMaterial: {fileID: -6490473135153962855, guid: b638c41e2084d25ae9cf0a79dca910be,
