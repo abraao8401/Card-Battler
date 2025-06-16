@@ -6,7 +6,7 @@ public class GerenciarDeck : MonoBehaviour
 {
 
     public GameObject canvasPrincipal;
-    public GameObject canvasCoralix, canvasThalacora, canvasDrenia, canvasMaghydra, canvasCinergeist, canvasScorikarn, canvasFloramina, canvasVenevore, canvasThornoak, canvasAurarch, canvasSolvigil, canvasOrelion, canvasOcukrak, canvasMentisect, canvasNoegnos, canvasTenebrall, canvasNargazhul, canvasDraumora;
+    public GameObject canvasCoralix, canvasThalacora, canvasDrenia, canvasRananura, canvasPelagri, canvasMaghydra, canvasCinergeist, canvasVulcardus, canvasScorikarn, canvasArdofel, canvasFloramina, canvasVenevore, canvasThornoak, canvasLyrelios, canvasViridra, canvasAurarch, canvasSolvigil, canvasOrelion, canvasLumiceros, canvasVulpiora, canvasOcukrak, canvasMentisect, canvasNoegnos, canvasCoreata, canvasDuofore, canvasTenebrall, canvasNargazhul, canvasDraumora, canvasSaberoth, canvasAtraxis;
 
     void Start()
     {
@@ -36,6 +36,18 @@ public class GerenciarDeck : MonoBehaviour
         canvasDrenia.SetActive(true);
     }
     
+    public void Rananura()
+    {
+        canvasPrincipal.SetActive(false);
+        canvasRananura.SetActive(true);
+    }
+
+public void Pelagri()
+    {
+        canvasPrincipal.SetActive(false);
+        canvasPelagri.SetActive(true);
+    }
+
     public void Maghydra()
     {
         canvasPrincipal.SetActive(false);
@@ -48,10 +60,22 @@ public class GerenciarDeck : MonoBehaviour
         canvasCinergeist.SetActive(true);
     }
 
+    public void Vulcardus()
+    {
+        canvasPrincipal.SetActive(false);
+        canvasVulcardus.SetActive(true);
+    }
+
     public void Scorikarn()
     {
         canvasPrincipal.SetActive(false);
         canvasScorikarn.SetActive(true);
+    }
+
+    public void Ardofel()
+    {
+        canvasPrincipal.SetActive(false);
+        canvasArdofel.SetActive(true);
     }
 
     public void Floramina()
@@ -72,6 +96,17 @@ public class GerenciarDeck : MonoBehaviour
         canvasThornoak.SetActive(true);
     }
 
+    public void Lyrelios()
+    {
+        canvasPrincipal.SetActive(false);
+        canvasLyrelios.SetActive(true);
+    }
+    public void Viridra()
+    {
+        canvasPrincipal.SetActive(false);
+        canvasViridra.SetActive(true);
+    }
+
     public void Aurarch()
     {
         canvasPrincipal.SetActive(false);
@@ -88,6 +123,18 @@ public class GerenciarDeck : MonoBehaviour
     {
         canvasPrincipal.SetActive(false);
         canvasOrelion.SetActive(true);
+    }
+
+    public void Lumiceros()
+    {
+        canvasPrincipal.SetActive(false);
+        canvasLumiceros.SetActive(true);
+    }
+
+    public void Vulpiora()
+    {
+        canvasPrincipal.SetActive(false);
+        canvasVulpiora.SetActive(true);
     }
 
     public void Ocukrak()
@@ -108,6 +155,18 @@ public class GerenciarDeck : MonoBehaviour
         canvasNoegnos.SetActive(true);
     }
 
+    public void Coreata()
+    {
+        canvasPrincipal.SetActive(false);
+        canvasCoreata.SetActive(true);
+    }
+
+    public void Duofore()
+    {
+        canvasPrincipal.SetActive(false);
+        canvasDuofore.SetActive(true);
+    }
+
     public void Tenebrall()
     {
         canvasPrincipal.SetActive(false);
@@ -124,6 +183,18 @@ public class GerenciarDeck : MonoBehaviour
     {
         canvasPrincipal.SetActive(false);
         canvasDraumora.SetActive(true);
+    }
+
+    public void Saberoth()
+    {
+        canvasPrincipal.SetActive(false);
+        canvasSaberoth.SetActive(true);
+    }
+
+    public void Atraxis()
+    {
+        canvasPrincipal.SetActive(false);
+        canvasAtraxis.SetActive(true);
     }
 
     public void VoltarLista()
