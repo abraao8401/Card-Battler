@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 43170
+  controlID: 145129
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 43120
+  controlID: 145130
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 43121
+  controlID: 145106
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,9 +226,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a8900000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: e0a6fdffb4e3fdffdef0fdff2073ffff6885ffff3afbffffbe9f000042a40000
+      m_ExpandedIDs: 687af4fffcd5f4ff9cdaf4ffae0ff5ff3e2af5fff4b8f5ffd4bdf5ffb4c2f5ff7ac7f5ff5accf5ff20d1f5ffe6d5f5ffacdaf5ff18fef5ff1003f6ffe407f6ff660cf6ffc625f6ff643bf6ff3250f6ffc069f6ff626ef6ff2c6ff6ffcc73f6ff6c78f6ff0c7df6ffae81f6fff29df6ff9aa3f6ffaaa8f6ff2eaef6ffbcd4f6fffad5f6ffb242f7ff3e48f7ff0849f7ffb452f7ff6c58f7ffae59f7ffe063f7ff5465f7ff048ef7ffd88ff7ff209bf7ffc09ff7ff5e47f8ff9e51f8ffc2adf8ff9caef8ff7eb0f8ff28b3f8ffa6b7f8ffc8b8f8ffdabef8ff2ce0f8ff70e1f8ffeee2f8ff02eef8ff12f0f8ff5c03f9ff14c6faff54cdfaffe6cefaff84d3faff700bfbfff621fbffa42cfbff6a2efbff2433fbff566ffbff4674fcffbaa1fcff4a36fdff3c60fdff4462fdff0c63fdff7c9ffdff0ea1fdffe0a6fdffb4e3fdffdef0fdff2073ffff6885ffff3afbffffbe9f000042a4000012320200c84d0200124e02009468030010ae030008e00300a2e003005cfc03003e090400d0520400ac540400c6540400d6550400f255040004560400e456040022580400585804009e58040040590400c4590400685a0400fe5a0400da5c04003e5d0400365f0400585f04006a5f0400845f04001e600400186104006c640400806404003a650400346604006667040008680400126804005468040066680400ee5e05003e5f05007e770500b6c5050042430600b0490600cc580600c67d0600be880600
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -393,7 +393,7 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Camera
+      id: Scene View/Cloth Constraints
       index: 1
       layout: 4
     - dockPosition: 1
@@ -404,7 +404,7 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Cloth Constraints
+      id: Scene View/Cloth Collisions
       index: 2
       layout: 4
     - dockPosition: 1
@@ -415,7 +415,7 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Cloth Collisions
+      id: Scene View/Navmesh Display
       index: 3
       layout: 4
     - dockPosition: 1
@@ -426,7 +426,7 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Navmesh Display
+      id: Scene View/Agent Display
       index: 4
       layout: 4
     - dockPosition: 1
@@ -437,7 +437,7 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Agent Display
+      id: Scene View/Obstacle Display
       index: 5
       layout: 4
     - dockPosition: 1
@@ -448,7 +448,7 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Obstacle Display
+      id: Scene View/Occlusion Culling
       index: 6
       layout: 4
     - dockPosition: 1
@@ -459,7 +459,7 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Occlusion Culling
+      id: Scene View/Physics Debugger
       index: 7
       layout: 4
     - dockPosition: 1
@@ -470,7 +470,7 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Physics Debugger
+      id: Scene View/Scene Visibility
       index: 8
       layout: 4
     - dockPosition: 1
@@ -481,19 +481,19 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/Scene Visibility
+      id: Scene View/Particles
       index: 9
       layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
+    - dockPosition: 0
+      containerId: overlay-toolbar__bottom
       floating: 0
       collapsed: 0
       displayed: 0
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: -203, y: -131}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Particles
-      index: 10
+      snapCorner: 3
+      id: Scene View/Camera
+      index: 0
       layout: 4
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
   m_Gizmos: 1
@@ -505,9 +505,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1242.6156, y: 666.8685, z: 373.23584}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: 1242.6156, y: 666.8685, z: 373.23584}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -554,13 +554,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.0068979254, y: 0.0020926653, z: -0.00001442936, w: -0.99997973}
+    m_Target: {x: -0.5770893, y: -0.03745941, z: 0.026511084, w: -0.81540346}
     speed: 2
-    m_Value: {x: -0.0068979254, y: 0.002092665, z: -0.00001442936, w: -0.99997973}
+    m_Value: {x: -0.5770893, y: -0.03745941, z: 0.026511084, w: -0.81540346}
   m_Size:
-    m_Target: 733.6121
+    m_Target: 18.266066
     speed: 2
-    m_Value: 702.0212
+    m_Value: 18.266066
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -654,22 +654,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/_Udemy Card Battler Assets/Art/Card Art/Template
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/_Udemy Card Battler Assets/Art/Card Art/Template
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Giovanna\Card-Battler
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 74}
-    m_SelectedIDs: 2e600000
-    m_LastClickedID: 24622
-    m_ExpandedIDs: 000000001c600000226000006c6000007a60000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: ac600000
+    m_LastClickedID: 24748
+    m_ExpandedIDs: 000000001c600000226000006c6000007a600000148a0600268a0600288a06002c8a060000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -697,7 +697,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001c600000226000006c6000007a60000000ca9a3b
+    m_ExpandedIDs: 000000001c600000226000006c6000007a600000148a0600268a0600288a06002c8a060000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -722,9 +722,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: a8900000
-    m_LastClickedInstanceID: 37032
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300000e810000587d01003c7d0100487d0100ba8300005284000010610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

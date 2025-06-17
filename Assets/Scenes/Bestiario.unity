@@ -275,82 +275,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3681703}
   m_CullTransparentMesh: 1
---- !u!1 &4676050
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4676051}
-  - component: {fileID: 4676053}
-  - component: {fileID: 4676052}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &4676051
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4676050}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 131078982}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &4676052
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4676050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &4676053
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4676050}
-  m_CullTransparentMesh: 1
 --- !u!1 &8393770
 GameObject:
   m_ObjectHideFlags: 0
@@ -562,82 +486,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 12040222}
-  m_CullTransparentMesh: 1
---- !u!1 &18201338
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 18201339}
-  - component: {fileID: 18201341}
-  - component: {fileID: 18201340}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &18201339
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 18201338}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 471865042}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &18201340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 18201338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &18201341
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 18201338}
   m_CullTransparentMesh: 1
 --- !u!1 &19679993
 GameObject:
@@ -3878,9 +3726,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -3889,23 +3737,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!1 &96995365
@@ -4989,7 +4837,7 @@ GameObject:
   - component: {fileID: 117779781}
   - component: {fileID: 117779780}
   m_Layer: 5
-  m_Name: Psiquico b
+  m_Name: Psiquico 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5009,13 +4857,12 @@ RectTransform:
   m_Children:
   - {fileID: 1858979165}
   - {fileID: 1528804946}
-  - {fileID: 1823741732}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 33
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 396, y: 116}
+  m_AnchoredPosition: {x: 396, y: 257.6}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &117779780
@@ -5337,7 +5184,7 @@ GameObject:
   - component: {fileID: 131078984}
   - component: {fileID: 131078983}
   m_Layer: 5
-  m_Name: Agua c
+  m_Name: Agua 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5357,13 +5204,12 @@ RectTransform:
   m_Children:
   - {fileID: 857362307}
   - {fileID: 998376158}
-  - {fileID: 4676051}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 14
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -650.1, y: -25.5}
+  m_AnchoredPosition: {x: -650.1, y: -308.8}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &131078983
@@ -9063,7 +8909,7 @@ GameObject:
   - component: {fileID: 237711656}
   - component: {fileID: 237711655}
   m_Layer: 5
-  m_Name: Sombra c
+  m_Name: Sombra 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9083,13 +8929,12 @@ RectTransform:
   m_Children:
   - {fileID: 543584141}
   - {fileID: 1791323958}
-  - {fileID: 2118482469}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 39
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 618, y: -25.5}
+  m_AnchoredPosition: {x: 618, y: -167}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &237711655
@@ -9409,7 +9254,7 @@ GameObject:
   - component: {fileID: 250067494}
   - component: {fileID: 250067493}
   m_Layer: 5
-  m_Name: Sombra a
+  m_Name: Sombra 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9429,7 +9274,6 @@ RectTransform:
   m_Children:
   - {fileID: 152902678}
   - {fileID: 1949876811}
-  - {fileID: 1392060803}
   m_Father: {fileID: 1878002199}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9621,7 +9465,7 @@ GameObject:
   - component: {fileID: 252036110}
   - component: {fileID: 252036109}
   m_Layer: 5
-  m_Name: Fogo a
+  m_Name: Fogo 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9641,13 +9485,12 @@ RectTransform:
   m_Children:
   - {fileID: 1743699218}
   - {fileID: 1259788515}
-  - {fileID: 671730388}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 17
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -424.3, y: 257.6}
+  m_AnchoredPosition: {x: -424.3, y: -167}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &252036109
@@ -10259,9 +10102,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -10270,23 +10113,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &267761461
@@ -10380,7 +10223,7 @@ RectTransform:
   - {fileID: 88959860}
   - {fileID: 1014585262}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -11194,6 +11037,141 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 292962512}
   m_CullTransparentMesh: 1
+--- !u!1 &293774536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 293774537}
+  - component: {fileID: 293774540}
+  - component: {fileID: 293774539}
+  - component: {fileID: 293774538}
+  m_Layer: 5
+  m_Name: Voltar Menu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &293774537
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293774536}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 432567109}
+  - {fileID: 1507818322}
+  m_Father: {fileID: 1878002199}
+  m_RootOrder: 42
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -754, y: 455.9}
+  m_SizeDelta: {x: 226.9568, y: 85.2626}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &293774538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293774536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 293774539}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1878002200}
+        m_TargetAssemblyTypeName: GerenciarDeck, Assembly-CSharp
+        m_MethodName: Menu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &293774539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293774536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &293774540
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293774536}
+  m_CullTransparentMesh: 1
 --- !u!1 &294695784
 GameObject:
   m_ObjectHideFlags: 0
@@ -11723,9 +11701,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -11734,23 +11712,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &326834767
@@ -11844,7 +11822,7 @@ RectTransform:
   - {fileID: 1436266542}
   - {fileID: 1334479337}
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -12370,7 +12348,7 @@ GameObject:
   - component: {fileID: 344853101}
   - component: {fileID: 344853100}
   m_Layer: 5
-  m_Name: Planta d
+  m_Name: Planta 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12390,13 +12368,12 @@ RectTransform:
   m_Children:
   - {fileID: 2112217085}
   - {fileID: 251595959}
-  - {fileID: 926908474}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 25
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -196, y: -167}
+  m_AnchoredPosition: {x: -196, y: 116}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &344853100
@@ -13376,82 +13353,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 387747374}
   m_CullTransparentMesh: 1
---- !u!1 &387874601
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 387874602}
-  - component: {fileID: 387874604}
-  - component: {fileID: 387874603}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &387874602
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 387874601}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 900251472}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &387874603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 387874601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &387874604
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 387874601}
-  m_CullTransparentMesh: 1
 --- !u!1 &390539970
 GameObject:
   m_ObjectHideFlags: 0
@@ -13833,9 +13734,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -13844,23 +13745,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &404563011
@@ -14070,9 +13971,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -14081,23 +13982,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &408035896
@@ -14191,7 +14092,7 @@ RectTransform:
   - {fileID: 1275329482}
   - {fileID: 872308205}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -14383,9 +14284,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -14394,23 +14295,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &413442963
@@ -14504,7 +14405,7 @@ RectTransform:
   - {fileID: 1207771499}
   - {fileID: 1047614157}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -14862,82 +14763,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 420428483}
   m_CullTransparentMesh: 1
---- !u!1 &423470701
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 423470702}
-  - component: {fileID: 423470704}
-  - component: {fileID: 423470703}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &423470702
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 423470701}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1128614131}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &423470703
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 423470701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &423470704
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 423470701}
-  m_CullTransparentMesh: 1
 --- !u!1 &427724768
 GameObject:
   m_ObjectHideFlags: 0
@@ -15013,6 +14838,82 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 427724768}
+  m_CullTransparentMesh: 1
+--- !u!1 &432567108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 432567109}
+  - component: {fileID: 432567111}
+  - component: {fileID: 432567110}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &432567109
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432567108}
+  m_LocalRotation: {x: -0.7071068, y: 0.7071068, z: -0.0000042370634, w: -0.0000042370634}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 293774537}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 9180, y: 0, z: 90}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -52.8, y: -10.9}
+  m_SizeDelta: {x: 60.2258, y: 130.4942}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &432567110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432567108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: d964fed1827e8f04686891ba829c128c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &432567111
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432567108}
   m_CullTransparentMesh: 1
 --- !u!1 &440792447
 GameObject:
@@ -15456,82 +15357,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 449988429}
-  m_CullTransparentMesh: 1
---- !u!1 &451697053
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 451697054}
-  - component: {fileID: 451697056}
-  - component: {fileID: 451697055}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &451697054
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 451697053}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 564217367}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &451697055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 451697053}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &451697056
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 451697053}
   m_CullTransparentMesh: 1
 --- !u!1 &451702304
 GameObject:
@@ -16068,7 +15893,7 @@ GameObject:
   - component: {fileID: 471865044}
   - component: {fileID: 471865043}
   m_Layer: 5
-  m_Name: Agua a
+  m_Name: Agua 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16088,7 +15913,6 @@ RectTransform:
   m_Children:
   - {fileID: 666372440}
   - {fileID: 456076274}
-  - {fileID: 18201339}
   m_Father: {fileID: 1878002199}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -16360,9 +16184,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -16371,23 +16195,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &474829772
@@ -16855,7 +16679,7 @@ GameObject:
   - component: {fileID: 492008550}
   - component: {fileID: 492008549}
   m_Layer: 5
-  m_Name: Luz e
+  m_Name: Luz 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16875,13 +16699,12 @@ RectTransform:
   m_Children:
   - {fileID: 387747375}
   - {fileID: 969425277}
-  - {fileID: 691788336}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 31
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 173, y: -308.8}
+  m_AnchoredPosition: {x: 173, y: 257.6}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &492008549
@@ -17435,9 +17258,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -17446,23 +17269,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &504106774
@@ -17556,7 +17379,7 @@ RectTransform:
   - {fileID: 1483640421}
   - {fileID: 91605082}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -17639,82 +17462,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 504112149}
   m_CullTransparentMesh: 1
---- !u!1 &508622398
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 508622399}
-  - component: {fileID: 508622401}
-  - component: {fileID: 508622400}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &508622399
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 508622398}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1600136908}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &508622400
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 508622398}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &508622401
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 508622398}
-  m_CullTransparentMesh: 1
 --- !u!1 &510127093
 GameObject:
   m_ObjectHideFlags: 0
@@ -17728,7 +17475,7 @@ GameObject:
   - component: {fileID: 510127096}
   - component: {fileID: 510127095}
   m_Layer: 5
-  m_Name: Planta c
+  m_Name: Planta 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17748,13 +17495,12 @@ RectTransform:
   m_Children:
   - {fileID: 2061398943}
   - {fileID: 697779056}
-  - {fileID: 1601928843}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 24
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -196, y: -25.5}
+  m_AnchoredPosition: {x: -196, y: -308.8}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &510127095
@@ -18060,82 +17806,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 514069087}
-  m_CullTransparentMesh: 1
---- !u!1 &515420967
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 515420968}
-  - component: {fileID: 515420970}
-  - component: {fileID: 515420969}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &515420968
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515420967}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1936948754}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &515420969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515420967}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &515420970
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515420967}
   m_CullTransparentMesh: 1
 --- !u!1 &516431645
 GameObject:
@@ -19234,9 +18904,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -19245,23 +18915,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &540784060
@@ -19355,7 +19025,7 @@ RectTransform:
   - {fileID: 1015908559}
   - {fileID: 1129282867}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -19805,7 +19475,7 @@ GameObject:
   - component: {fileID: 564217369}
   - component: {fileID: 564217368}
   m_Layer: 5
-  m_Name: Planta b
+  m_Name: Planta 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19825,13 +19495,12 @@ RectTransform:
   m_Children:
   - {fileID: 3681704}
   - {fileID: 158596501}
-  - {fileID: 451697054}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 23
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -196, y: 116}
+  m_AnchoredPosition: {x: -196, y: -167}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &564217368
@@ -20215,82 +19884,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 570328257}
-  m_CullTransparentMesh: 1
---- !u!1 &575005567
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 575005568}
-  - component: {fileID: 575005570}
-  - component: {fileID: 575005569}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &575005568
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 575005567}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 672732723}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &575005569
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 575005567}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &575005570
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 575005567}
   m_CullTransparentMesh: 1
 --- !u!1 &575748274
 GameObject:
@@ -21423,7 +21016,7 @@ GameObject:
   - component: {fileID: 626927003}
   - component: {fileID: 626927002}
   m_Layer: 5
-  m_Name: Planta a
+  m_Name: Planta 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21443,13 +21036,12 @@ RectTransform:
   m_Children:
   - {fileID: 249844645}
   - {fileID: 1341131497}
-  - {fileID: 1501156111}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 22
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -196, y: 257.6}
+  m_AnchoredPosition: {x: -196, y: -25.5}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &626927002
@@ -21621,82 +21213,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 632612740}
-  m_CullTransparentMesh: 1
---- !u!1 &634017365
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 634017366}
-  - component: {fileID: 634017368}
-  - component: {fileID: 634017367}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &634017366
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 634017365}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1765226667}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &634017367
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 634017365}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &634017368
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 634017365}
   m_CullTransparentMesh: 1
 --- !u!1 &636657333
 GameObject:
@@ -22308,9 +21824,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -22319,23 +21835,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &653091459
@@ -22429,7 +21945,7 @@ RectTransform:
   - {fileID: 1309643547}
   - {fileID: 207096565}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -22909,9 +22425,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -22920,23 +22436,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &666803095
@@ -23030,7 +22546,7 @@ RectTransform:
   - {fileID: 1875239205}
   - {fileID: 632612741}
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -23249,82 +22765,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 670328621}
   m_CullTransparentMesh: 1
---- !u!1 &671730387
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 671730388}
-  - component: {fileID: 671730390}
-  - component: {fileID: 671730389}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &671730388
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 671730387}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 252036108}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &671730389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 671730387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &671730390
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 671730387}
-  m_CullTransparentMesh: 1
 --- !u!1 &672732722
 GameObject:
   m_ObjectHideFlags: 0
@@ -23338,7 +22778,7 @@ GameObject:
   - component: {fileID: 672732725}
   - component: {fileID: 672732724}
   m_Layer: 5
-  m_Name: Fogo d
+  m_Name: Fogo 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23358,13 +22798,12 @@ RectTransform:
   m_Children:
   - {fileID: 988029796}
   - {fileID: 1217396004}
-  - {fileID: 575005568}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -424.3, y: -167}
+  m_AnchoredPosition: {x: -424.3, y: -25.5}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &672732724
@@ -24373,82 +23812,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 691231091}
   m_CullTransparentMesh: 1
---- !u!1 &691788335
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 691788336}
-  - component: {fileID: 691788338}
-  - component: {fileID: 691788337}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &691788336
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 691788335}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 492008548}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &691788337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 691788335}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &691788338
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 691788335}
-  m_CullTransparentMesh: 1
 --- !u!1 &692540669
 GameObject:
   m_ObjectHideFlags: 0
@@ -25314,7 +24677,7 @@ GameObject:
   - component: {fileID: 715608720}
   - component: {fileID: 715608719}
   m_Layer: 5
-  m_Name: Agua e
+  m_Name: Agua 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25334,13 +24697,12 @@ RectTransform:
   m_Children:
   - {fileID: 1304211748}
   - {fileID: 1528502661}
-  - {fileID: 900849351}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 16
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -650.1, y: -308.8}
+  m_AnchoredPosition: {x: -650.1, y: -25.5}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &715608719
@@ -25470,9 +24832,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -25481,23 +24843,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &717969630
@@ -25591,7 +24953,7 @@ RectTransform:
   - {fileID: 1354240062}
   - {fileID: 567276214}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -26022,82 +25384,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 733973364}
   m_CullTransparentMesh: 1
---- !u!1 &735052097
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 735052098}
-  - component: {fileID: 735052100}
-  - component: {fileID: 735052099}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &735052098
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 735052097}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1204145300}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &735052099
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 735052097}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &735052100
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 735052097}
-  m_CullTransparentMesh: 1
 --- !u!1 &742553556
 GameObject:
   m_ObjectHideFlags: 0
@@ -26283,9 +25569,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -26294,23 +25580,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &745412377
@@ -26404,7 +25690,7 @@ RectTransform:
   - {fileID: 1286108629}
   - {fileID: 1495833593}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -28300,7 +27586,7 @@ RectTransform:
   - {fileID: 218462864}
   - {fileID: 96995366}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -28320,9 +27606,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -28331,23 +27617,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!1 &799690881
@@ -30020,9 +29306,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -30031,23 +29317,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &850816896
@@ -30141,7 +29427,7 @@ RectTransform:
   - {fileID: 503666511}
   - {fileID: 1507610591}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -31316,7 +30602,7 @@ GameObject:
   - component: {fileID: 900251474}
   - component: {fileID: 900251473}
   m_Layer: 5
-  m_Name: Sombra e
+  m_Name: Sombra 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31336,13 +30622,12 @@ RectTransform:
   m_Children:
   - {fileID: 2049925303}
   - {fileID: 1000208415}
-  - {fileID: 387874602}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 41
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 618, y: -308.8}
+  m_AnchoredPosition: {x: 618, y: -25.5}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &900251473
@@ -31572,82 +30857,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 900700820}
-  m_CullTransparentMesh: 1
---- !u!1 &900849350
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 900849351}
-  - component: {fileID: 900849353}
-  - component: {fileID: 900849352}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &900849351
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900849350}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 715608718}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &900849352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900849350}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &900849353
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900849350}
   m_CullTransparentMesh: 1
 --- !u!1 &909579612
 GameObject:
@@ -32291,82 +31500,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 925727930}
   m_CullTransparentMesh: 1
---- !u!1 &926908473
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 926908474}
-  - component: {fileID: 926908476}
-  - component: {fileID: 926908475}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &926908474
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 926908473}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 344853099}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &926908475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 926908473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &926908476
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 926908473}
-  m_CullTransparentMesh: 1
 --- !u!1 &929627910
 GameObject:
   m_ObjectHideFlags: 0
@@ -32532,7 +31665,7 @@ GameObject:
   - component: {fileID: 939871555}
   - component: {fileID: 939871554}
   m_Layer: 5
-  m_Name: Fogo e
+  m_Name: Fogo 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32552,13 +31685,12 @@ RectTransform:
   m_Children:
   - {fileID: 523085456}
   - {fileID: 1081432767}
-  - {fileID: 977535965}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 21
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -424.29996, y: -308.8}
+  m_AnchoredPosition: {x: -424.29996, y: 116}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &939871554
@@ -33942,82 +33074,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 975678270}
-  m_CullTransparentMesh: 1
---- !u!1 &977535964
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 977535965}
-  - component: {fileID: 977535967}
-  - component: {fileID: 977535966}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &977535965
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 977535964}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 939871553}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &977535966
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 977535964}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &977535967
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 977535964}
   m_CullTransparentMesh: 1
 --- !u!1 &978661315
 GameObject:
@@ -35955,82 +35011,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1026898097}
   m_CullTransparentMesh: 1
---- !u!1 &1029921700
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1029921701}
-  - component: {fileID: 1029921703}
-  - component: {fileID: 1029921702}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1029921701
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1029921700}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1893088933}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1029921702
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1029921700}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1029921703
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1029921700}
-  m_CullTransparentMesh: 1
 --- !u!1 &1033823058
 GameObject:
   m_ObjectHideFlags: 0
@@ -37073,9 +36053,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -37084,23 +36064,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &1077128965
@@ -37194,7 +36174,7 @@ RectTransform:
   - {fileID: 381876599}
   - {fileID: 1055256149}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -38616,7 +37596,7 @@ GameObject:
   - component: {fileID: 1128614133}
   - component: {fileID: 1128614132}
   m_Layer: 5
-  m_Name: Planta e
+  m_Name: Planta 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38636,13 +37616,12 @@ RectTransform:
   m_Children:
   - {fileID: 1429527487}
   - {fileID: 270871452}
-  - {fileID: 423470702}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 26
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -195.99997, y: -308.8}
+  m_AnchoredPosition: {x: -195.99997, y: 257.6}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1128614132
@@ -38980,7 +37959,7 @@ GameObject:
   - component: {fileID: 1130968454}
   - component: {fileID: 1130968453}
   m_Layer: 5
-  m_Name: Psiquico a
+  m_Name: Psiquico 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39000,13 +37979,12 @@ RectTransform:
   m_Children:
   - {fileID: 1839753802}
   - {fileID: 1842328970}
-  - {fileID: 1262763919}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 32
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 396, y: 257.6}
+  m_AnchoredPosition: {x: 396, y: 116}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1130968453
@@ -39192,7 +38170,7 @@ GameObject:
   - component: {fileID: 1134488587}
   - component: {fileID: 1134488586}
   m_Layer: 5
-  m_Name: Agua d
+  m_Name: Agua 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39212,13 +38190,12 @@ RectTransform:
   m_Children:
   - {fileID: 856126198}
   - {fileID: 643020195}
-  - {fileID: 1361200927}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 15
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -650.1, y: -167}
+  m_AnchoredPosition: {x: -650.1, y: 116}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1134488586
@@ -39540,7 +38517,7 @@ GameObject:
   - component: {fileID: 1151223482}
   - component: {fileID: 1151223481}
   m_Layer: 5
-  m_Name: Psiquico d
+  m_Name: Psiquico 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39560,13 +38537,12 @@ RectTransform:
   m_Children:
   - {fileID: 1986791194}
   - {fileID: 1742039678}
-  - {fileID: 1720792588}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 35
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 396, y: -167}
+  m_AnchoredPosition: {x: 396, y: -25.5}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1151223481
@@ -40439,82 +39415,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1169744872}
   m_CullTransparentMesh: 1
---- !u!1 &1176033823
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1176033824}
-  - component: {fileID: 1176033826}
-  - component: {fileID: 1176033825}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1176033824
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1176033823}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1898085826}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1176033825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1176033823}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1176033826
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1176033823}
-  m_CullTransparentMesh: 1
 --- !u!1 &1176756460
 GameObject:
   m_ObjectHideFlags: 0
@@ -40624,9 +39524,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -40635,23 +39535,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &1177550152
@@ -40745,7 +39645,7 @@ RectTransform:
   - {fileID: 1674805769}
   - {fileID: 689586714}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -41415,7 +40315,7 @@ GameObject:
   - component: {fileID: 1204145302}
   - component: {fileID: 1204145301}
   m_Layer: 5
-  m_Name: Psiquico c
+  m_Name: Psiquico 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41435,13 +40335,12 @@ RectTransform:
   m_Children:
   - {fileID: 1910015970}
   - {fileID: 1738145989}
-  - {fileID: 735052098}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 34
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 396, y: -25.5}
+  m_AnchoredPosition: {x: 396, y: -308.8}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1204145301
@@ -43538,82 +42437,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1261075896}
   m_CullTransparentMesh: 1
---- !u!1 &1262763918
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1262763919}
-  - component: {fileID: 1262763921}
-  - component: {fileID: 1262763920}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1262763919
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1262763918}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1130968452}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1262763920
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1262763918}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1262763921
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1262763918}
-  m_CullTransparentMesh: 1
 --- !u!1 &1270367120
 GameObject:
   m_ObjectHideFlags: 0
@@ -44373,7 +43196,7 @@ GameObject:
   - component: {fileID: 1304424431}
   - component: {fileID: 1304424430}
   m_Layer: 5
-  m_Name: Psiquico e
+  m_Name: Psiquico 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44393,13 +43216,12 @@ RectTransform:
   m_Children:
   - {fileID: 35811672}
   - {fileID: 1705807138}
-  - {fileID: 1617522070}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 36
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 396, y: -308.8}
+  m_AnchoredPosition: {x: 396, y: -167}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1304424430
@@ -45922,82 +44744,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1360325921}
   m_CullTransparentMesh: 1
---- !u!1 &1361200926
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1361200927}
-  - component: {fileID: 1361200929}
-  - component: {fileID: 1361200928}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1361200927
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1361200926}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1134488585}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1361200928
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1361200926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1361200929
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1361200926}
-  m_CullTransparentMesh: 1
 --- !u!1 &1365182780
 GameObject:
   m_ObjectHideFlags: 0
@@ -46107,9 +44853,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -46118,23 +44864,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &1365229411
@@ -46228,89 +44974,13 @@ RectTransform:
   - {fileID: 666294478}
   - {fileID: 1837708946}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &1370192356
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1370192357}
-  - component: {fileID: 1370192359}
-  - component: {fileID: 1370192358}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1370192357
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1370192356}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1948997917}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1370192358
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1370192356}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1370192359
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1370192356}
-  m_CullTransparentMesh: 1
 --- !u!1 &1372149019
 GameObject:
   m_ObjectHideFlags: 0
@@ -47444,82 +46114,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1390074989}
-  m_CullTransparentMesh: 1
---- !u!1 &1392060802
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1392060803}
-  - component: {fileID: 1392060805}
-  - component: {fileID: 1392060804}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1392060803
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1392060802}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 250067492}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1392060804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1392060802}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1392060805
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1392060802}
   m_CullTransparentMesh: 1
 --- !u!1 &1395366165
 GameObject:
@@ -49996,9 +48590,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -50007,23 +48601,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &1451105253
@@ -50117,7 +48711,7 @@ RectTransform:
   - {fileID: 1866435893}
   - {fileID: 283732582}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -51791,82 +50385,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1499703060}
   m_CullTransparentMesh: 1
---- !u!1 &1501156110
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1501156111}
-  - component: {fileID: 1501156113}
-  - component: {fileID: 1501156112}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1501156111
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501156110}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 626927001}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1501156112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501156110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1501156113
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501156110}
-  m_CullTransparentMesh: 1
 --- !u!1 &1502031484
 GameObject:
   m_ObjectHideFlags: 0
@@ -52291,6 +50809,142 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1507610590}
   m_CullTransparentMesh: 1
+--- !u!1 &1507818321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1507818322}
+  - component: {fileID: 1507818324}
+  - component: {fileID: 1507818323}
+  m_Layer: 5
+  m_Name: Texto
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1507818322
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507818321}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 293774537}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 176.1, y: -35}
+  m_SizeDelta: {x: 202.8597, y: 66.5344}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1507818323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507818321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Menu
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: b638c41e2084d25ae9cf0a79dca910be, type: 2}
+  m_sharedMaterial: {fileID: -6490473135153962855, guid: b638c41e2084d25ae9cf0a79dca910be,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 30
+  m_fontSizeBase: 30
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 38
+  m_fontStyle: 17
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: -12.807404}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1507818324
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507818321}
+  m_CullTransparentMesh: 1
 --- !u!1 &1512860680
 GameObject:
   m_ObjectHideFlags: 0
@@ -52324,9 +50978,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -52335,23 +50989,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &1512860682
@@ -52445,7 +51099,7 @@ RectTransform:
   - {fileID: 664395093}
   - {fileID: 1782549136}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -53090,82 +51744,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1533632973}
-  m_CullTransparentMesh: 1
---- !u!1 &1533734558
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1533734559}
-  - component: {fileID: 1533734561}
-  - component: {fileID: 1533734560}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1533734559
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533734558}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1592472288}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1533734560
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533734558}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1533734561
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533734558}
   m_CullTransparentMesh: 1
 --- !u!1 &1534231617
 GameObject:
@@ -54900,9 +53478,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -54911,23 +53489,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &1591130859
@@ -55021,7 +53599,7 @@ RectTransform:
   - {fileID: 1365182781}
   - {fileID: 1188138227}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -55041,7 +53619,7 @@ GameObject:
   - component: {fileID: 1592472290}
   - component: {fileID: 1592472289}
   m_Layer: 5
-  m_Name: Sombra b
+  m_Name: Sombra 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55061,7 +53639,6 @@ RectTransform:
   m_Children:
   - {fileID: 161384657}
   - {fileID: 446144002}
-  - {fileID: 1533734559}
   m_Father: {fileID: 1878002199}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -55311,7 +53888,7 @@ GameObject:
   - component: {fileID: 1600136910}
   - component: {fileID: 1600136909}
   m_Layer: 5
-  m_Name: Luz b
+  m_Name: Luz 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55331,13 +53908,12 @@ RectTransform:
   m_Children:
   - {fileID: 272838947}
   - {fileID: 1345717488}
-  - {fileID: 508622399}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 28
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 173, y: 116}
+  m_AnchoredPosition: {x: 173, y: -25.5}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1600136909
@@ -55433,82 +54009,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1600136907}
-  m_CullTransparentMesh: 1
---- !u!1 &1601928842
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1601928843}
-  - component: {fileID: 1601928845}
-  - component: {fileID: 1601928844}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1601928843
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1601928842}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 510127094}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1601928844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1601928842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1601928845
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1601928842}
   m_CullTransparentMesh: 1
 --- !u!1 &1607767949
 GameObject:
@@ -55972,82 +54472,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1615895572}
-  m_CullTransparentMesh: 1
---- !u!1 &1617522069
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1617522070}
-  - component: {fileID: 1617522072}
-  - component: {fileID: 1617522071}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1617522070
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1617522069}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1304424429}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1617522071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1617522069}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1617522072
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1617522069}
   m_CullTransparentMesh: 1
 --- !u!1 &1626959486
 GameObject:
@@ -57827,7 +56251,7 @@ GameObject:
   - component: {fileID: 1679704431}
   - component: {fileID: 1679704430}
   m_Layer: 5
-  m_Name: Luz d
+  m_Name: Luz 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57847,13 +56271,12 @@ RectTransform:
   m_Children:
   - {fileID: 1651036463}
   - {fileID: 292962513}
-  - {fileID: 1783512901}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 30
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 173, y: -167}
+  m_AnchoredPosition: {x: 173, y: -308.8}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1679704430
@@ -59185,82 +57608,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1716584494}
   m_CullTransparentMesh: 1
---- !u!1 &1720792587
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1720792588}
-  - component: {fileID: 1720792590}
-  - component: {fileID: 1720792589}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1720792588
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1720792587}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1151223480}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1720792589
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1720792587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1720792590
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1720792587}
-  m_CullTransparentMesh: 1
 --- !u!1 &1725710027
 GameObject:
   m_ObjectHideFlags: 0
@@ -60096,9 +58443,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -60107,23 +58454,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &1747189224
@@ -60217,7 +58564,7 @@ RectTransform:
   - {fileID: 1417265061}
   - {fileID: 1925628793}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -60860,7 +59207,7 @@ GameObject:
   - component: {fileID: 1765226669}
   - component: {fileID: 1765226668}
   m_Layer: 5
-  m_Name: Fogo c
+  m_Name: Fogo 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60880,13 +59227,12 @@ RectTransform:
   m_Children:
   - {fileID: 159319858}
   - {fileID: 303808811}
-  - {fileID: 634017366}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 19
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -424.3, y: -25.5}
+  m_AnchoredPosition: {x: -424.3, y: -308.8}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1765226668
@@ -61456,9 +59802,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -61467,23 +59813,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &1771345560
@@ -61577,7 +59923,7 @@ RectTransform:
   - {fileID: 1785390842}
   - {fileID: 49986320}
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -61948,82 +60294,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1782549135}
   m_CullTransparentMesh: 1
---- !u!1 &1783512900
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1783512901}
-  - component: {fileID: 1783512903}
-  - component: {fileID: 1783512902}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1783512901
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1783512900}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1679704429}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1783512902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1783512900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1783512903
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1783512900}
-  m_CullTransparentMesh: 1
 --- !u!1 &1785390841
 GameObject:
   m_ObjectHideFlags: 0
@@ -62133,9 +60403,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -62144,23 +60414,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &1787900803
@@ -62254,7 +60524,7 @@ RectTransform:
   - {fileID: 1973701246}
   - {fileID: 1079965489}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -63279,82 +61549,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1819115119}
-  m_CullTransparentMesh: 1
---- !u!1 &1823741731
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1823741732}
-  - component: {fileID: 1823741734}
-  - component: {fileID: 1823741733}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1823741732
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1823741731}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 117779779}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1823741733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1823741731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1823741734
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1823741731}
   m_CullTransparentMesh: 1
 --- !u!1 &1823759938
 GameObject:
@@ -64448,7 +62642,7 @@ GameObject:
   - component: {fileID: 1847867675}
   - component: {fileID: 1847867674}
   m_Layer: 5
-  m_Name: Luz c
+  m_Name: Luz 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64468,13 +62662,12 @@ RectTransform:
   m_Children:
   - {fileID: 2015826514}
   - {fileID: 1558333763}
-  - {fileID: 2133980853}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 29
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 173, y: -25.5}
+  m_AnchoredPosition: {x: 173, y: -167}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1847867674
@@ -65256,9 +63449,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -65267,23 +63460,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &1869326986
@@ -65377,7 +63570,7 @@ RectTransform:
   - {fileID: 94636680}
   - {fileID: 132048506}
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -65721,9 +63914,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -65732,23 +63925,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &1875576062
@@ -65842,7 +64035,7 @@ RectTransform:
   - {fileID: 1065873895}
   - {fileID: 982383557}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -66031,35 +64224,36 @@ RectTransform:
   - {fileID: 720906314}
   - {fileID: 1729740456}
   - {fileID: 471865042}
-  - {fileID: 1893088933}
-  - {fileID: 131078982}
   - {fileID: 1134488585}
   - {fileID: 715608718}
-  - {fileID: 252036108}
+  - {fileID: 1893088933}
+  - {fileID: 131078982}
   - {fileID: 1936948754}
-  - {fileID: 1765226667}
-  - {fileID: 672732723}
   - {fileID: 939871553}
+  - {fileID: 672732723}
+  - {fileID: 252036108}
+  - {fileID: 1765226667}
+  - {fileID: 1128614131}
+  - {fileID: 344853099}
   - {fileID: 626927001}
   - {fileID: 564217367}
   - {fileID: 510127094}
-  - {fileID: 344853099}
-  - {fileID: 1128614131}
+  - {fileID: 492008548}
   - {fileID: 1898085826}
   - {fileID: 1600136908}
   - {fileID: 1847867673}
   - {fileID: 1679704429}
-  - {fileID: 492008548}
-  - {fileID: 1130968452}
   - {fileID: 117779779}
-  - {fileID: 1204145300}
+  - {fileID: 1130968452}
   - {fileID: 1151223480}
   - {fileID: 1304424429}
+  - {fileID: 1204145300}
   - {fileID: 250067492}
   - {fileID: 1592472288}
+  - {fileID: 900251472}
   - {fileID: 237711654}
   - {fileID: 1948997917}
-  - {fileID: 900251472}
+  - {fileID: 293774537}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -66081,9 +64275,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 96969778}
   canvasThalacora: {fileID: 799157335}
   canvasDrenia: {fileID: 413442961}
+  canvasCoralix: {fileID: 96969778}
   canvasRananura: {fileID: 850816894}
   canvasPelagri: {fileID: 1747189222}
   canvasMaghydra: {fileID: 2103665011}
@@ -66092,23 +64286,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 1512860680}
   canvasArdofel: {fileID: 1451105251}
   canvasFloramina: {fileID: 1591130857}
-  canvasVenevore: {fileID: 717969628}
   canvasThornoak: {fileID: 2027248773}
+  canvasVenevore: {fileID: 717969628}
   canvasLyrelios: {fileID: 653091457}
   canvasViridra: {fileID: 745412375}
-  canvasAurarch: {fileID: 1077128963}
   canvasSolvigil: {fileID: 540784058}
+  canvasAurarch: {fileID: 1077128963}
   canvasOrelion: {fileID: 1177550150}
   canvasLumiceros: {fileID: 408035894}
   canvasVulpiora: {fileID: 1365229409}
   canvasOcukrak: {fileID: 1787900801}
-  canvasMentisect: {fileID: 267761459}
   canvasNoegnos: {fileID: 1875576060}
+  canvasMentisect: {fileID: 267761459}
   canvasCoreata: {fileID: 1771345558}
   canvasDuofore: {fileID: 666803093}
-  canvasTenebrall: {fileID: 1891246698}
   canvasNargazhul: {fileID: 474829770}
   canvasDraumora: {fileID: 1869326984}
+  canvasTenebrall: {fileID: 1891246698}
   canvasSaberoth: {fileID: 2129210799}
   canvasAtraxis: {fileID: 326834765}
 --- !u!1 &1891246698
@@ -66144,9 +64338,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -66155,23 +64349,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &1891246700
@@ -66421,7 +64615,7 @@ GameObject:
   - component: {fileID: 1893088935}
   - component: {fileID: 1893088934}
   m_Layer: 5
-  m_Name: Agua b
+  m_Name: Agua 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66441,13 +64635,12 @@ RectTransform:
   m_Children:
   - {fileID: 2002458938}
   - {fileID: 383525440}
-  - {fileID: 1029921701}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 13
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -650.1, y: 116}
+  m_AnchoredPosition: {x: -650.1, y: -167}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1893088934
@@ -66557,7 +64750,7 @@ GameObject:
   - component: {fileID: 1898085828}
   - component: {fileID: 1898085827}
   m_Layer: 5
-  m_Name: Luz a
+  m_Name: Luz 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66577,13 +64770,12 @@ RectTransform:
   m_Children:
   - {fileID: 799690882}
   - {fileID: 644464464}
-  - {fileID: 1176033824}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 27
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 173, y: 257.6}
+  m_AnchoredPosition: {x: 173, y: 116}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1898085827
@@ -67285,7 +65477,7 @@ GameObject:
   - component: {fileID: 1936948756}
   - component: {fileID: 1936948755}
   m_Layer: 5
-  m_Name: Fogo b
+  m_Name: Fogo 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67305,13 +65497,12 @@ RectTransform:
   m_Children:
   - {fileID: 592568506}
   - {fileID: 1382425420}
-  - {fileID: 515420968}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -424.3, y: 116}
+  m_AnchoredPosition: {x: -424.3, y: 257.6}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1936948755
@@ -67497,7 +65688,7 @@ GameObject:
   - component: {fileID: 1948997919}
   - component: {fileID: 1948997918}
   m_Layer: 5
-  m_Name: Sombra d
+  m_Name: Sombra 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67517,13 +65708,12 @@ RectTransform:
   m_Children:
   - {fileID: 76139526}
   - {fileID: 86124232}
-  - {fileID: 1370192357}
   m_Father: {fileID: 1878002199}
-  m_RootOrder: 40
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 618, y: -167}
+  m_AnchoredPosition: {x: 618, y: -308.8}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1948997918
@@ -69533,9 +67723,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -69544,23 +67734,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &2027248775
@@ -69654,7 +67844,7 @@ RectTransform:
   - {fileID: 1212149231}
   - {fileID: 636657334}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -71584,9 +69774,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -71595,23 +69785,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &2103665013
@@ -71705,7 +69895,7 @@ RectTransform:
   - {fileID: 953697926}
   - {fileID: 52279863}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -72152,82 +70342,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2117807060}
   m_CullTransparentMesh: 1
---- !u!1 &2118482468
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2118482469}
-  - component: {fileID: 2118482471}
-  - component: {fileID: 2118482470}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2118482469
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2118482468}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 237711654}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2118482470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2118482468}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &2118482471
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2118482468}
-  m_CullTransparentMesh: 1
 --- !u!1 &2129210799
 GameObject:
   m_ObjectHideFlags: 0
@@ -72261,9 +70375,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPrincipal: {fileID: 1878002195}
-  canvasCoralix: {fileID: 0}
   canvasThalacora: {fileID: 0}
   canvasDrenia: {fileID: 0}
+  canvasCoralix: {fileID: 0}
   canvasRananura: {fileID: 0}
   canvasPelagri: {fileID: 0}
   canvasMaghydra: {fileID: 0}
@@ -72272,23 +70386,23 @@ MonoBehaviour:
   canvasScorikarn: {fileID: 0}
   canvasArdofel: {fileID: 0}
   canvasFloramina: {fileID: 0}
-  canvasVenevore: {fileID: 0}
   canvasThornoak: {fileID: 0}
+  canvasVenevore: {fileID: 0}
   canvasLyrelios: {fileID: 0}
   canvasViridra: {fileID: 0}
-  canvasAurarch: {fileID: 0}
   canvasSolvigil: {fileID: 0}
+  canvasAurarch: {fileID: 0}
   canvasOrelion: {fileID: 0}
   canvasLumiceros: {fileID: 0}
   canvasVulpiora: {fileID: 0}
   canvasOcukrak: {fileID: 0}
-  canvasMentisect: {fileID: 0}
   canvasNoegnos: {fileID: 0}
+  canvasMentisect: {fileID: 0}
   canvasCoreata: {fileID: 0}
   canvasDuofore: {fileID: 0}
-  canvasTenebrall: {fileID: 0}
   canvasNargazhul: {fileID: 0}
   canvasDraumora: {fileID: 0}
+  canvasTenebrall: {fileID: 0}
   canvasSaberoth: {fileID: 0}
   canvasAtraxis: {fileID: 0}
 --- !u!114 &2129210801
@@ -72382,7 +70496,7 @@ RectTransform:
   - {fileID: 1185324732}
   - {fileID: 1696987406}
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -72464,82 +70578,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2133334267}
-  m_CullTransparentMesh: 1
---- !u!1 &2133980852
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2133980853}
-  - component: {fileID: 2133980855}
-  - component: {fileID: 2133980854}
-  m_Layer: 5
-  m_Name: Moldura Interna
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2133980853
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2133980852}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1847867673}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2401, y: -0.5855}
-  m_SizeDelta: {x: 129.8004, y: 129.0824}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2133980854
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2133980852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9874307, b: 0.7311321, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3f86a5bb3c9d23f48934fb088beadda2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &2133980855
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2133980852}
   m_CullTransparentMesh: 1
 --- !u!1 &2135677682
 GameObject:

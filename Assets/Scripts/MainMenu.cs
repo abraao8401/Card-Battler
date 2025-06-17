@@ -42,7 +42,7 @@ public class MainMenu : MonoBehaviour
 
         public void Deck()
     {
-        SceneManager.LoadScene("Deck");
+        SceneManager.LoadScene("Bestiario");
         AudioManager.instance.PlaySFX(0);
     }
 }
