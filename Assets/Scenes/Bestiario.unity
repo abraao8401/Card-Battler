@@ -64131,6 +64131,7 @@ GameObject:
   - component: {fileID: 1878002197}
   - component: {fileID: 1878002196}
   - component: {fileID: 1878002200}
+  - component: {fileID: 1878002201}
   m_Layer: 5
   m_Name: Canvas Principal
   m_TagString: Untagged
@@ -64305,6 +64306,18 @@ MonoBehaviour:
   canvasTenebrall: {fileID: 1891246698}
   canvasSaberoth: {fileID: 2129210799}
   canvasAtraxis: {fileID: 326834765}
+--- !u!114 &1878002201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878002195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e60fb4b0c6342b409cec6fbb0faca2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1891246698
 GameObject:
   m_ObjectHideFlags: 0

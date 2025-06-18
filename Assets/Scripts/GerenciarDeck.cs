@@ -11,7 +11,7 @@ public class GerenciarDeck : MonoBehaviour
 
     void Start()
     {
-
+        
     }
 
     void Update()

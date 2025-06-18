@@ -95,6 +95,7 @@ public class Card : MonoBehaviour
                         isSelected = false;
                         theHC.RemoveCardFromHand(this);
                         AudioManager.instance.PlaySFX(4);
+                        AvisoZoom.instance.HideHint();
                     }
                     else
                         ReturnToHand();
@@ -130,6 +131,7 @@ public class Card : MonoBehaviour
         if (inHand && BattleController.instance.currentPhase == BattleController.TurnOrder.playerActive && isPlayer && BattleController.instance.battleEnded == false && Time.timeScale != 0f)
         {
             isSelected = true;
+            AvisoZoom.instance.ShowHint();
             theCol.enabled = false;
             justPressed = true;
         }
@@ -140,6 +142,7 @@ public class Card : MonoBehaviour
         isSelected = false;
         theCol.enabled = true;
         MoveToPoint(theHC.cardPositions[handPosition], theHC.minPos.rotation);
+        AvisoZoom.instance.HideHint();
     }
 
     public void DamageCard(int damageAmount)
