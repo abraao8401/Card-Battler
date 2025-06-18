@@ -67,12 +67,12 @@ public class UIController : MonoBehaviour
 
     public void SetPlayerHealthText(int healthAmount)
     {
-        playerHealthText.text = "Vida do Jogador: " + healthAmount;
+        playerHealthText.text = "PV: " + healthAmount;
     }
 
     public void SetEnemyHealthText(int healthAmount)
     {
-        enemyHealthText.text = "Vida do Oponente: " + healthAmount;
+        enemyHealthText.text = "PV: " + healthAmount;
     }
 
     public void ShowManaWarning()
